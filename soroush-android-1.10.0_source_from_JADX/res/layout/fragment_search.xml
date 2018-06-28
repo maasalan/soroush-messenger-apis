@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/search_fragment_rootView" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content" app:elevation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:contentInsetStartWithNavigation="0dp" app:layout_scrollFlags="5" app:navigationIcon="@drawable/ic_back_white" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance">
+            <android.support.v7.widget.SearchView app:id="@id/search" app:focusable="true" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:iconifiedByDefault="false" app:iconifiedByDefault="false" app:searchIcon="0x0" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <View app:id="@id/shadow_line_top" app:background="@drawable/shadow_line_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" />
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView app:id="@id/recyclerViewSearch" app:layout_width="match_parent" app:layout_height="wrap_content" />
+        <TextView app:textSize="15sp" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/search_help_remove_textview" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:layout_marginTop="35dp" app:layout_marginRight="16dp" app:text=" " />
+    </LinearLayout>
+</LinearLayout>

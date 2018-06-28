@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/root_relativeLayout" app:background="0x106000c" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@id/container_frame" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="@dimen/material_margin_medium" app:layout_above="@id/below_frame">
+        <android.support.v4.view.ViewPager app:id="@id/pager" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </FrameLayout>
+    <View app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_above="@id/below_frame" />
+    <FrameLayout app:id="@id/below_frame" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true"
+        <FrameLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/container_frame_grid_items" app:layout_width="match_parent" app:layout_height="wrap_content" /> />
+    <android.support.v7.widget.Toolbar app:theme="@style/TransparentToolbarActivityTheme" app:id="@id/toolbar" app:background="@color/colorTransparentToolbarBackground" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:contentInsetStartWithNavigation="0dp" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance" />
+</RelativeLayout>

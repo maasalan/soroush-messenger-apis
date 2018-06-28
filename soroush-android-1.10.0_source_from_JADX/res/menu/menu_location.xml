@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_share_dark_24" app:id="@id/action_share" app:orderInCategory="1" app:title="@string/action_share" app:showAsAction="ifRoom" />
+    <item app:id="@id/action_disable" app:visible="false" app:orderInCategory="1" app:title="@string/action_disable_find_friends" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

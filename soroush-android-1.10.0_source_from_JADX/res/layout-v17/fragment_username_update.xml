@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:id="@c0243f/container" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="4.0"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:id="@id/top_part" app:background="#eaeaea" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <RelativeLayout app:id="@id/update_relative_layout" app:paddingLeft="16dp" app:paddingRight="16dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/text_update" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="در حال بروزرسانی ..." app:drawablePadding="4dp" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:layout_alignParentEnd="true" />
+                <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/text_update_error" app:paddingLeft="8dp" app:paddingRight="16dp" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="5dp" app:text="دوباره تلاش کنید" app:drawablePadding="4dp" app:layout_toRightOf="@id/refresh_image_view" app:layout_centerVertical="true" />
+                <ImageView app:id="@id/refresh_image_view" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:src="@drawable/ic_refresh_pec" app:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar app:id="@id/gradient" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="-3dp" app:indeterminate="true" app:spb_stroke_width="8dp" style="@style/GradientProgressBar" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView app:id="@id/recycler_view" app:background="0x0" app:paddingLeft="@dimen/activity_vertical_margin" app:paddingRight="@dimen/activity_vertical_margin" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginTop="@dimen/activity_vertical_margin" app:layout_weight="3.0" app:overScrollMode="never" />
+    </LinearLayout>
+    <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/bg_pattern" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" app:layout_alignParentStart="true" />
+</RelativeLayout>

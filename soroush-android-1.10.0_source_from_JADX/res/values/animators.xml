@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="design_appbar_state_list_animator">res/animator-v21/design_appbar_state_list_animator.xml</animator>
+    <animator name="slide_in_left_anim">res/animator/slide_in_left_anim.xml</animator>
+    <animator name="slide_in_right_anim">res/animator/slide_in_right_anim.xml</animator>
+    <animator name="slide_out_left_anim">res/animator/slide_out_left_anim.xml</animator>
+    <animator name="slide_out_right_anim">res/animator/slide_out_right_anim.xml</animator>
+</resources>

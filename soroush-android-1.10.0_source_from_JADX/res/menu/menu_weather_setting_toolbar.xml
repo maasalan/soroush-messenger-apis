@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_edit_tick" app:id="@id/menu_weather_setting_toolbar_ok" app:orderInCategory="1" app:title="@c2502c/accept" app:showAsAction="ifRoom" />
+</menu>

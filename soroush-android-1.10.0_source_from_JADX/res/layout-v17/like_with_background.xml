@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/like_imageView" android:background="@drawable/circle_gray" android:padding="2dp" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x7f0700cb" android:layout_height="UNKNOWN_DATA_0x7f0700cb" android:layout_marginLeft="@dimen/material_margin_medium" android:src="@drawable/ic_message_like_shadow_outline" android:contentDescription="like_imageView" android:layout_marginStart="@dimen/material_margin_medium" />

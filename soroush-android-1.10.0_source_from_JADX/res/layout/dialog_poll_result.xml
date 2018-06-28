@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingBottom="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/box_linearLayout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <TextView android:textSize="@dimen/chat_text_size" android:textStyle="bold" android:textColor="@color/textColorPrimary" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/total_textView" android:paddingLeft="@dimen/material_margin_huge" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_huge" android:paddingBottom="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="64dp" android:text="New Text" />
+</FrameLayout>

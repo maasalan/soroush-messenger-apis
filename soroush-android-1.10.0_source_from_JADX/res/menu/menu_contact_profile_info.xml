@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_call" app:id="@id/action_call" app:orderInCategory="1" app:title="@string/action_call" app:showAsAction="ifRoom" />
+    <item app:id="@id/action_block" app:orderInCategory="100" app:title="@string/action_block" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_unblock" app:orderInCategory="100" app:title="@string/action_unblock" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_report" app:orderInCategory="100" app:title="@string/action_report" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

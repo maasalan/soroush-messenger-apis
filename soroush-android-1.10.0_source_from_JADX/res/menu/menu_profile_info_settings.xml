@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@id/action_deactivate" app:visible="false" app:orderInCategory="100" app:title="@string/action_deactivate" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_log_out" app:orderInCategory="101" app:title="@string/action_log_out" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_action_navigation_check_white" app:id="@id/action_done" app:orderInCategory="1" app:title="@string/action_done" app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2b8763f-2280-48d3-8d73-80d9240b093b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WebserviceUrls.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/urls/WebserviceUrls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="801">
+              <caret line="428" column="1" lean-forward="true" selection-start-line="428" selection-start-column="1" selection-end-line="428" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C2567b.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/C2567b.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="149" column="65" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckVersionRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/checkversion/CheckVersionRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_lang.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unknown/org/apache/commons/codec/language/bm/gen_lang.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="208" column="16" selection-start-line="208" selection-start-column="16" selection-end-line="208" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C5814a.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/clientCountry/C5814a.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ce.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/google/android/gms/internal/ce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoLocation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org/jivesoftware/smackx/geoloc/packet/GeoLocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2160">
+              <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+              <folding>
+                <element signature="e#7605#7606#0" expanded="true" />
+                <element signature="e#7640#7641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StickerServiceUrls.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/urls/StickerServiceUrls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="48" lean-forward="true" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C2566a.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/C2566a.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>build</find>
+      <find>class C2566a</find>
+      <find>build()</find>
+      <find>addConverterFactory</find>
+      <find>C2545a</find>
+      <find>ws</find>
+      <find>CheckVersion</find>
+      <find>get</find>
+      <find>wslb2</find>
+      <find>wslb2.pem</find>
+      <find>setHashMethod</find>
+      <find>hashM</find>
+      <find>keystore</find>
+      <find>hamrah</find>
+      <find>m12969b</find>
+      <find>f15937h</find>
+      <find>trust</find>
+      <find>Trust</find>
+      <find>m2242a</find>
+      <find>country_code</find>
+      <find>Get</find>
+      <find>getCountry(</find>
+      <find>count</find>
+      <find>PassKey</find>
+      <find>getCountry</find>
+      <find>check_version</find>
+      <find>generateCertificategenerateCertificate</find>
+      <find>farsi</find>
+      <find>getCountry()</find>
+      <find>version</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/register/C5870a.java" />
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/logic/p261a/p332z/p336b/p338b/C6795c.java" />
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/C2551a.java" />
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/C2567b.java" />
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/urls/WebserviceUrls.java" />
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/C2560a.java" />
+        <option value="$PROJECT_DIR$/mobi/mmdt/ott/p240c/p241a/C5770a.java" />
+        <option value="$PROJECT_DIR$/unknown/org/apache/commons/codec/language/bm/gen_lang.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="componentsutils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="componentsutils" type="462c0819:PsiDirectoryNode" />
+              <item name="p232b" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit_implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="urls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="checkversion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="clientCountry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="mobi" type="462c0819:PsiDirectoryNode" />
+              <item name="mmdt" type="462c0819:PsiDirectoryNode" />
+              <item name="ott" type="462c0819:PsiDirectoryNode" />
+              <item name="lib_webservicescomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="user_window_archive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="jivesoftware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="jivesoftware" type="462c0819:PsiDirectoryNode" />
+              <item name="smackx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="jivesoftware" type="462c0819:PsiDirectoryNode" />
+              <item name="smackx" type="462c0819:PsiDirectoryNode" />
+              <item name="geoloc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="jivesoftware" type="462c0819:PsiDirectoryNode" />
+              <item name="smackx" type="462c0819:PsiDirectoryNode" />
+              <item name="geoloc" type="462c0819:PsiDirectoryNode" />
+              <item name="packet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soroush-android-1.10.0_source_from_JADX" type="462c0819:PsiDirectoryNode" />
+              <item name="unknown" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+              <item name="bm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soroush-android-1.10.0_source_from_JADX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2b8763f-2280-48d3-8d73-80d9240b093b" name="Default" comment="" />
+      <created>1528899776375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528899776375</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/view/registeration/phoneandcountry/countryselection/C6249a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/logic/C2775a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/register/C5870a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/groupServices/channel/get_category_and_channels/GetCategoryAndChannelsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/p259b/p260a/C2562b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/p259b/p260a/C2561a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/p259b/C2564b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/linkpreview/C5861a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/activation/ActivationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/activation/ActivationResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/activation/C5805a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/p259b/C2565c.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p252b/p254b/C2550c.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p519c/p520a/C5775a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p519c/p521b/p541b/C6636a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p519c/p521b/p541b/C6637b.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p519c/p521b/p541b/C6639d.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p255b/C2552a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p256c/ab.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/view/vas/payservices/charge/view/C6287c.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/provinces.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/rootca.pem">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/linphonerc_default">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/linphonerc_factory">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/lpconfig.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/wslb2.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p056c/p057a/p060c/C4999a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/p240c/p241a/C5770a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="275" column="9" lean-forward="true" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p252b/p254b/C2549a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p251a/C2547a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/p250a/p252b/p254b/C5774b.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p056c/p057a/p060c/C0877c.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/C2560a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/C2551a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/componentsutils/p232b/C2490h.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/clientCountry/ClientCountryResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/checkversion/C5813a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/componentsutils/p232b/C2491i.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/ResponseMember.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/componentsutils/p232b/C2492j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="54" column="80" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/checkversion/CheckVersionResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/checkversion/CheckVersionRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unknown/org/apache/commons/codec/language/bm/gen_lang.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="208" column="16" selection-start-line="208" selection-start-column="16" selection-end-line="208" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/webservices/clientCountry/C5814a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/google/android/gms/internal/ce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org/jivesoftware/smackx/geoloc/packet/GeoLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+          <folding>
+            <element signature="e#7605#7606#0" expanded="true" />
+            <element signature="e#7640#7641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/C2566a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/C2567b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="149" column="65" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/urls/WebserviceUrls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="428" column="1" lean-forward="true" selection-start-line="428" selection-start-column="1" selection-end-line="428" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobi/mmdt/ott/lib_webservicescomponent/retrofit/retrofit_implementation/urls/StickerServiceUrls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="48" lean-forward="true" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_unpin_black" android:id="@id/action_unpin_chat" android:title="@string/action_unpin_chat" />
+    <item android:icon="@drawable/ic_action_delete" android:id="@id/action_leave_group" android:visible="false" android:title="@string/action_leave_group" />
+    <item android:icon="@drawable/ic_action_delete" android:id="@id/action_leave_and_delete" android:title="@string/action_leave_and_delete" />
+    <item android:icon="@drawable/ic_action_clear_history" android:id="@id/action_clear_history" android:title="@string/action_clear_history" />
+</menu>

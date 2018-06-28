@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="PagerIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="RoundAvatarImageViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="SliderStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarDivider">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarItemBackground">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarPopupTheme">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarSize">
+        <item>65600</item>
+        <item>0</item>
+    </attr>
+    <attr name="actionBarSplitStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTabBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTabStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTabTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTheme">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarWidgetTheme">
+        <item>1</item>
+    </attr>
+    <attr name="actionButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionDropDownStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionLayout">
+        <item>1</item>
+    </attr>
+    <attr name="actionMenuTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="actionMenuTextColor">
+        <item>17</item>
+    </attr>
+    <attr name="actionModeBackground">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeCloseButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeCloseDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeCopyDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeCutDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeFindDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModePasteDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModePopupWindowStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeSelectAllDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeShareDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeSplitBackground">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeWebSearchDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionOverflowButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionOverflowMenuStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionProviderClass">
+        <item>2</item>
+    </attr>
+    <attr name="actionViewClass">
+        <item>2</item>
+    </attr>
+    <attr name="activityChooserViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="alertDialogButtonGroupStyle">
+        <item>1</item>
+    </attr>
+    <attr name="alertDialogCenterButtons">
+        <item>8</item>
+    </attr>
+    <attr name="alertDialogStyle">
+        <item>1</item>
+    </attr>
+    <attr name="alertDialogTheme">
+        <item>1</item>
+    </attr>
+    <attr name="allowScaling">
+        <item>8</item>
+    </attr>
+    <attr name="allowStacking">
+        <item>8</item>
+    </attr>
+    <attr name="alpha">
+        <item>32</item>
+    </attr>
+    <attr name="alphaSlider">
+        <item>8</item>
+    </attr>
+    <attr name="alphaSliderView">
+        <item>1</item>
+    </attr>
+    <attr name="alphabeticModifiers">
+        <item>131072</item>
+        <item>2</item>
+        <item>4096</item>
+        <item>8</item>
+        <item>65536</item>
+        <item>1</item>
+        <item>4</item>
+    </attr>
+    <attr name="alwaysTrackFinger">
+        <item>8</item>
+    </attr>
+    <attr name="ambientEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="arrowHeadLength">
+        <item>64</item>
+    </attr>
+    <attr name="arrowShaftLength">
+        <item>64</item>
+    </attr>
+    <attr name="autoCompleteTextViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="autoSizeMaxTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="autoSizeMinTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="autoSizePresetSizes">
+        <item>1</item>
+    </attr>
+    <attr name="autoSizeStepGranularity">
+        <item>64</item>
+    </attr>
+    <attr name="autoSizeTextType">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="auto_cycle">
+        <item>8</item>
+    </attr>
+    <attr name="background">
+        <item>1</item>
+    </attr>
+    <attr name="backgroundSplit">
+        <item>17</item>
+    </attr>
+    <attr name="backgroundStacked">
+        <item>17</item>
+    </attr>
+    <attr name="backgroundTint">
+        <item>16</item>
+    </attr>
+    <attr name="backgroundTintMode">
+        <item>65536</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="background_color">
+        <item>16</item>
+    </attr>
+    <attr name="barLength">
+        <item>64</item>
+    </attr>
+    <attr name="barrierAllowsGoneWidgets">
+        <item>8</item>
+    </attr>
+    <attr name="barrierDirection">
+        <item>65536</item>
+        <item>3</item>
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </attr>
+    <attr name="behavior_autoHide">
+        <item>8</item>
+    </attr>
+    <attr name="behavior_hideable">
+        <item>8</item>
+    </attr>
+    <attr name="behavior_overlapTop">
+        <item>64</item>
+    </attr>
+    <attr name="behavior_peekHeight">
+        <item>65600</item>
+        <item>-1</item>
+    </attr>
+    <attr name="behavior_skipCollapsed">
+        <item>8</item>
+    </attr>
+    <attr name="border">
+        <item>8</item>
+    </attr>
+    <attr name="borderAlpha">
+        <item>32</item>
+    </attr>
+    <attr name="borderColor">
+        <item>16</item>
+    </attr>
+    <attr name="borderLength">
+        <item>64</item>
+    </attr>
+    <attr name="borderWidth">
+        <item>64</item>
+    </attr>
+    <attr name="borderlessButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="bottomSheetDialogTheme">
+        <item>1</item>
+    </attr>
+    <attr name="bottomSheetStyle">
+        <item>1</item>
+    </attr>
+    <attr name="bottomSheetStyle1">
+        <item>1</item>
+    </attr>
+    <attr name="bs_closeDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="bs_collapseListIcons">
+        <item>8</item>
+    </attr>
+    <attr name="bs_dialogBackground">
+        <item>17</item>
+    </attr>
+    <attr name="bs_dividerColor">
+        <item>17</item>
+    </attr>
+    <attr name="bs_gridItemTitleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="bs_listItemTitleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="bs_listStyle">
+        <item>1</item>
+    </attr>
+    <attr name="bs_moreDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="bs_moreText">
+        <item>2</item>
+    </attr>
+    <attr name="bs_numColumns">
+        <item>4</item>
+    </attr>
+    <attr name="bs_titleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="buttonBarButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonBarNegativeButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonBarNeutralButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonBarPositiveButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonGravity">
+        <item>131072</item>
+        <item>80</item>
+        <item>48</item>
+    </attr>
+    <attr name="buttonPanelSideLayout">
+        <item>1</item>
+    </attr>
+    <attr name="buttonSize">
+        <item>65537</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="buttonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonStyleSmall">
+        <item>1</item>
+    </attr>
+    <attr name="buttonTint">
+        <item>16</item>
+    </attr>
+    <attr name="buttonTintMode">
+        <item>65536</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="cameraBearing">
+        <item>32</item>
+    </attr>
+    <attr name="cameraMaxZoomPreference">
+        <item>32</item>
+    </attr>
+    <attr name="cameraMinZoomPreference">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTargetLat">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTargetLng">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTilt">
+        <item>32</item>
+    </attr>
+    <attr name="cameraZoom">
+        <item>32</item>
+    </attr>
+    <attr name="cardBackgroundColor">
+        <item>16</item>
+    </attr>
+    <attr name="cardCornerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="cardElevation">
+        <item>64</item>
+    </attr>
+    <attr name="cardMaxElevation">
+        <item>64</item>
+    </attr>
+    <attr name="cardPreventCornerOverlap">
+        <item>8</item>
+    </attr>
+    <attr name="cardUseCompatPadding">
+        <item>8</item>
+    </attr>
+    <attr name="centered">
+        <item>8</item>
+    </attr>
+    <attr name="chainUseRtl">
+        <item>8</item>
+    </attr>
+    <attr name="checkboxStyle">
+        <item>1</item>
+    </attr>
+    <attr name="checkedTextViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="circleCrop">
+        <item>8</item>
+    </attr>
+    <attr name="clipPadding">
+        <item>64</item>
+    </attr>
+    <attr name="closeIcon">
+        <item>1</item>
+    </attr>
+    <attr name="closeItemLayout">
+        <item>1</item>
+    </attr>
+    <attr name="collapseContentDescription">
+        <item>2</item>
+    </attr>
+    <attr name="collapseIcon">
+        <item>1</item>
+    </attr>
+    <attr name="collapsedImageSize">
+        <item>64</item>
+    </attr>
+    <attr name="collapsedPadding">
+        <item>64</item>
+    </attr>
+    <attr name="collapsedTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="collapsedTitleGravity">
+        <item>131072</item>
+        <item>80</item>
+        <item>17</item>
+        <item>1</item>
+        <item>16</item>
+        <item>8388613</item>
+        <item>112</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8388611</item>
+        <item>48</item>
+    </attr>
+    <attr name="collapsedTitleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="color">
+        <item>16</item>
+    </attr>
+    <attr name="colorAccent">
+        <item>16</item>
+    </attr>
+    <attr name="colorBackgroundFloating">
+        <item>16</item>
+    </attr>
+    <attr name="colorButtonNormal">
+        <item>16</item>
+    </attr>
+    <attr name="colorControlActivated">
+        <item>16</item>
+    </attr>
+    <attr name="colorControlHighlight">
+        <item>16</item>
+    </attr>
+    <attr name="colorControlNormal">
+        <item>16</item>
+    </attr>
+    <attr name="colorError">
+        <item>17</item>
+    </attr>
+    <attr name="colorPrimary">
+        <item>16</item>
+    </attr>
+    <attr name="colorPrimaryDark">
+        <item>16</item>
+    </attr>
+    <attr name="colorScheme">
+        <item>65537</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="colorSwitchThumbNormal">
+        <item>16</item>
+    </attr>
+    <attr name="colors">
+        <item>1</item>
+    </attr>
+    <attr name="commitIcon">
+        <item>1</item>
+    </attr>
+    <attr name="constraintSet">
+        <item>1</item>
+    </attr>
+    <attr name="constraint_referenced_ids">
+        <item>2</item>
+    </attr>
+    <attr name="content">
+        <item>1</item>
+    </attr>
+    <attr name="contentDescription">
+        <item>2</item>
+    </attr>
+    <attr name="contentInsetEnd">
+        <item>64</item>
+    </attr>
+    <attr name="contentInsetEndWithActions">
+        <item>64</item>
+    </attr>
+    <attr name="contentInsetLeft">
+        <item>64</item>
+    </attr>
+    <attr name="contentInsetRight">
+        <item>64</item>
+    </attr>
+    <attr name="contentInsetStart">
+        <item>64</item>
+    </attr>
+    <attr name="contentInsetStartWithNavigation">
+        <item>64</item>
+    </attr>
+    <attr name="contentPadding">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingBottom">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingLeft">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingRight">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingTop">
+        <item>64</item>
+    </attr>
+    <attr name="contentScrim">
+        <item>16</item>
+    </attr>
+    <attr name="controlBackground">
+        <item>1</item>
+    </attr>
+    <attr name="cornerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="counterEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="counterMaxLength">
+        <item>4</item>
+    </attr>
+    <attr name="counterOverflowTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="counterTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="cropAspectRatioX">
+        <item>4</item>
+    </attr>
+    <attr name="cropAspectRatioY">
+        <item>4</item>
+    </attr>
+    <attr name="cropAutoZoomEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="cropBackgroundColor">
+        <item>16</item>
+    </attr>
+    <attr name="cropBorderCornerColor">
+        <item>16</item>
+    </attr>
+    <attr name="cropBorderCornerLength">
+        <item>64</item>
+    </attr>
+    <attr name="cropBorderCornerOffset">
+        <item>64</item>
+    </attr>
+    <attr name="cropBorderCornerThickness">
+        <item>64</item>
+    </attr>
+    <attr name="cropBorderLineColor">
+        <item>16</item>
+    </attr>
+    <attr name="cropBorderLineThickness">
+        <item>64</item>
+    </attr>
+    <attr name="cropFixAspectRatio">
+        <item>8</item>
+    </attr>
+    <attr name="cropGuidelines">
+        <item>65536</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </attr>
+    <attr name="cropGuidelinesColor">
+        <item>16</item>
+    </attr>
+    <attr name="cropGuidelinesThickness">
+        <item>64</item>
+    </attr>
+    <attr name="cropInitialCropWindowPaddingRatio">
+        <item>32</item>
+    </attr>
+    <attr name="cropMaxCropResultHeightPX">
+        <item>32</item>
+    </attr>
+    <attr name="cropMaxCropResultWidthPX">
+        <item>32</item>
+    </attr>
+    <attr name="cropMaxZoom">
+        <item>4</item>
+    </attr>
+    <attr name="cropMinCropResultHeightPX">
+        <item>32</item>
+    </attr>
+    <attr name="cropMinCropResultWidthPX">
+        <item>32</item>
+    </attr>
+    <attr name="cropMinCropWindowHeight">
+        <item>64</item>
+    </attr>
+    <attr name="cropMinCropWindowWidth">
+        <item>64</item>
+    </attr>
+    <attr name="cropScaleType">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </attr>
+    <attr name="cropShape">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="cropShowCropOverlay">
+        <item>8</item>
+    </attr>
+    <attr name="cropShowProgressBar">
+        <item>8</item>
+    </attr>
+    <attr name="cropSnapRadius">
+        <item>64</item>
+    </attr>
+    <attr name="cropTouchRadius">
+        <item>64</item>
+    </attr>
+    <attr name="customNavigationLayout">
+        <item>1</item>
+    </attr>
+    <attr name="defaultQueryHint">
+        <item>2</item>
+    </attr>
+    <attr name="density">
+        <item>4</item>
+    </attr>
+    <attr name="dialogPreferredPadding">
+        <item>64</item>
+    </attr>
+    <attr name="dialogTheme">
+        <item>1</item>
+    </attr>
+    <attr name="directionDescriptions">
+        <item>1</item>
+    </attr>
+    <attr name="discreteSeekBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="displayOptions">
+        <item>131072</item>
+        <item>32</item>
+        <item>4</item>
+        <item>0</item>
+        <item>16</item>
+        <item>2</item>
+        <item>8</item>
+        <item>1</item>
+    </attr>
+    <attr name="divider">
+        <item>1</item>
+    </attr>
+    <attr name="dividerHorizontal">
+        <item>1</item>
+    </attr>
+    <attr name="dividerPadding">
+        <item>64</item>
+    </attr>
+    <attr name="dividerVertical">
+        <item>1</item>
+    </attr>
+    <attr name="drawableSize">
+        <item>64</item>
+    </attr>
+    <attr name="drawerArrowStyle">
+        <item>1</item>
+    </attr>
+    <attr name="dropDownListViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="dropdownListPreferredItemHeight">
+        <item>64</item>
+    </attr>
+    <attr name="dsb_allowTrackClickToDrag">
+        <item>8</item>
+    </attr>
+    <attr name="dsb_indicatorColor">
+        <item>17</item>
+    </attr>
+    <attr name="dsb_indicatorElevation">
+        <item>64</item>
+    </attr>
+    <attr name="dsb_indicatorFormatter">
+        <item>3</item>
+    </attr>
+    <attr name="dsb_indicatorPopupEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="dsb_indicatorSeparation">
+        <item>68</item>
+    </attr>
+    <attr name="dsb_indicatorTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="dsb_max">
+        <item>68</item>
+    </attr>
+    <attr name="dsb_min">
+        <item>68</item>
+    </attr>
+    <attr name="dsb_mirrorForRtl">
+        <item>8</item>
+    </attr>
+    <attr name="dsb_progressColor">
+        <item>17</item>
+    </attr>
+    <attr name="dsb_rippleColor">
+        <item>17</item>
+    </attr>
+    <attr name="dsb_scrubberHeight">
+        <item>68</item>
+    </attr>
+    <attr name="dsb_thumbSize">
+        <item>68</item>
+    </attr>
+    <attr name="dsb_trackColor">
+        <item>17</item>
+    </attr>
+    <attr name="dsb_trackHeight">
+        <item>68</item>
+    </attr>
+    <attr name="dsb_value">
+        <item>68</item>
+    </attr>
+    <attr name="editTextBackground">
+        <item>1</item>
+    </attr>
+    <attr name="editTextColor">
+        <item>17</item>
+    </attr>
+    <attr name="editTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="elevation">
+        <item>64</item>
+    </attr>
+    <attr name="emojiconAlignment">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="emojiconSize">
+        <item>64</item>
+    </attr>
+    <attr name="emojiconTextLength">
+        <item>4</item>
+    </attr>
+    <attr name="emojiconTextStart">
+        <item>4</item>
+    </attr>
+    <attr name="emojiconUseSystemDefault">
+        <item>8</item>
+    </attr>
+    <attr name="emptyVisibility">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="errorEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="errorTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="expandActivityOverflowButtonDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="expanded">
+        <item>8</item>
+    </attr>
+    <attr name="expandedImageSize">
+        <item>64</item>
+    </attr>
+    <attr name="expandedPadding">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTitleGravity">
+        <item>131072</item>
+        <item>80</item>
+        <item>17</item>
+        <item>1</item>
+        <item>16</item>
+        <item>8388613</item>
+        <item>112</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8388611</item>
+        <item>48</item>
+    </attr>
+    <attr name="expandedTitleMargin">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTitleMarginBottom">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTitleMarginEnd">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTitleMarginStart">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTitleMarginTop">
+        <item>64</item>
+    </attr>
+    <attr name="expandedTitleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="fabSize">
+        <item>65536</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="fadeDelay">
+        <item>4</item>
+    </attr>
+    <attr name="fadeLength">
+        <item>4</item>
+    </attr>
+    <attr name="fades">
+        <item>8</item>
+    </attr>
+    <attr name="fastScrollEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="fastScrollHorizontalThumbDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="fastScrollHorizontalTrackDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="fastScrollVerticalThumbDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="fastScrollVerticalTrackDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="feedbackCount">
+        <item>4</item>
+    </attr>
+    <attr name="fillColorCircle">
+        <item>16</item>
+    </attr>
+    <attr name="finderOffset">
+        <item>64</item>
+    </attr>
+    <attr name="firstItemOffset">
+        <item>32</item>
+    </attr>
+    <attr name="flingFactor">
+        <item>32</item>
+    </attr>
+    <attr name="font">
+        <item>1</item>
+    </attr>
+    <attr name="fontFamily">
+        <item>2</item>
+    </attr>
+    <attr name="fontPath">
+        <item>2</item>
+    </attr>
+    <attr name="fontProviderAuthority">
+        <item>2</item>
+    </attr>
+    <attr name="fontProviderCerts">
+        <item>1</item>
+    </attr>
+    <attr name="fontProviderFetchStrategy">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="fontProviderFetchTimeout">
+        <item>65540</item>
+        <item>-1</item>
+    </attr>
+    <attr name="fontProviderPackage">
+        <item>2</item>
+    </attr>
+    <attr name="fontProviderQuery">
+        <item>2</item>
+    </attr>
+    <attr name="fontStyle">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="fontWeight">
+        <item>4</item>
+    </attr>
+    <attr name="footerColor">
+        <item>16</item>
+    </attr>
+    <attr name="footerIndicatorHeight">
+        <item>64</item>
+    </attr>
+    <attr name="footerIndicatorStyle">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="footerIndicatorUnderlinePadding">
+        <item>64</item>
+    </attr>
+    <attr name="footerLineHeight">
+        <item>64</item>
+    </attr>
+    <attr name="footerPadding">
+        <item>64</item>
+    </attr>
+    <attr name="foregroundInsidePadding">
+        <item>8</item>
+    </attr>
+    <attr name="freezesAnimation">
+        <item>8</item>
+    </attr>
+    <attr name="gapBetweenBars">
+        <item>64</item>
+    </attr>
+    <attr name="gapWidth">
+        <item>64</item>
+    </attr>
+    <attr name="gifSource">
+        <item>3</item>
+    </attr>
+    <attr name="glowRadius">
+        <item>64</item>
+    </attr>
+    <attr name="goIcon">
+        <item>1</item>
+    </attr>
+    <attr name="gravity">
+        <item>131072</item>
+        <item>80</item>
+        <item>17</item>
+        <item>1</item>
+        <item>16</item>
+        <item>8</item>
+        <item>128</item>
+        <item>119</item>
+        <item>7</item>
+        <item>112</item>
+        <item>3</item>
+        <item>5</item>
+        <item>48</item>
+    </attr>
+    <attr name="handleDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="headerLayout">
+        <item>1</item>
+    </attr>
+    <attr name="height">
+        <item>64</item>
+    </attr>
+    <attr name="hideOnContentScroll">
+        <item>8</item>
+    </attr>
+    <attr name="hintAnimationEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="hintEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="hintTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="homeAsUpIndicator">
+        <item>1</item>
+    </attr>
+    <attr name="homeLayout">
+        <item>1</item>
+    </attr>
+    <attr name="icon">
+        <item>1</item>
+    </attr>
+    <attr name="iconTint">
+        <item>16</item>
+    </attr>
+    <attr name="iconTintMode">
+        <item>65536</item>
+        <item>16</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="iconifiedByDefault">
+        <item>8</item>
+    </attr>
+    <attr name="imageAspectRatio">
+        <item>32</item>
+    </attr>
+    <attr name="imageAspectRatioAdjust">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="imageButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="indeterminateProgressStyle">
+        <item>1</item>
+    </attr>
+    <attr name="indicatorColor">
+        <item>16</item>
+    </attr>
+    <attr name="indicatorName">
+        <item>2</item>
+    </attr>
+    <attr name="indicatorRadius">
+        <item>64</item>
+    </attr>
+    <attr name="indicator_visibility">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="initialActivityCount">
+        <item>2</item>
+    </attr>
+    <attr name="initialColor">
+        <item>4</item>
+    </attr>
+    <attr name="innerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="insetForeground">
+        <item>17</item>
+    </attr>
+    <attr name="isConvertDaysToHours">
+        <item>8</item>
+    </attr>
+    <attr name="isHideTimeBackground">
+        <item>8</item>
+    </attr>
+    <attr name="isLightTheme">
+        <item>8</item>
+    </attr>
+    <attr name="isOpaque">
+        <item>8</item>
+    </attr>
+    <attr name="isShowDay">
+        <item>8</item>
+    </attr>
+    <attr name="isShowHour">
+        <item>8</item>
+    </attr>
+    <attr name="isShowMillisecond">
+        <item>8</item>
+    </attr>
+    <attr name="isShowMinute">
+        <item>8</item>
+    </attr>
+    <attr name="isShowSecond">
+        <item>8</item>
+    </attr>
+    <attr name="isShowTimeBgBorder">
+        <item>8</item>
+    </attr>
+    <attr name="isShowTimeBgDivisionLine">
+        <item>8</item>
+    </attr>
+    <attr name="isSuffixTextBold">
+        <item>8</item>
+    </attr>
+    <attr name="isTimeTextBold">
+        <item>8</item>
+    </attr>
+    <attr name="itemBackground">
+        <item>1</item>
+    </attr>
+    <attr name="itemIconTint">
+        <item>16</item>
+    </attr>
+    <attr name="itemPadding">
+        <item>64</item>
+    </attr>
+    <attr name="itemTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="itemTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="keylines">
+        <item>1</item>
+    </attr>
+    <attr name="laserColor">
+        <item>16</item>
+    </attr>
+    <attr name="laserEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="latLngBoundsNorthEastLatitude">
+        <item>32</item>
+    </attr>
+    <attr name="latLngBoundsNorthEastLongitude">
+        <item>32</item>
+    </attr>
+    <attr name="latLngBoundsSouthWestLatitude">
+        <item>32</item>
+    </attr>
+    <attr name="latLngBoundsSouthWestLongitude">
+        <item>32</item>
+    </attr>
+    <attr name="layout">
+        <item>1</item>
+    </attr>
+    <attr name="layoutManager">
+        <item>2</item>
+    </attr>
+    <attr name="layout_anchor">
+        <item>1</item>
+    </attr>
+    <attr name="layout_anchorGravity">
+        <item>131072</item>
+        <item>80</item>
+        <item>17</item>
+        <item>1</item>
+        <item>16</item>
+        <item>8</item>
+        <item>128</item>
+        <item>8388613</item>
+        <item>119</item>
+        <item>7</item>
+        <item>112</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8388611</item>
+        <item>48</item>
+    </attr>
+    <attr name="layout_behavior">
+        <item>2</item>
+    </attr>
+    <attr name="layout_collapseMode">
+        <item>65536</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </attr>
+    <attr name="layout_collapseParallaxMultiplier">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constrainedHeight">
+        <item>8</item>
+    </attr>
+    <attr name="layout_constrainedWidth">
+        <item>8</item>
+    </attr>
+    <attr name="layout_constraintBaseline_creator">
+        <item>4</item>
+    </attr>
+    <attr name="layout_constraintBaseline_toBaselineOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintBottom_creator">
+        <item>4</item>
+    </attr>
+    <attr name="layout_constraintBottom_toBottomOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintBottom_toTopOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintCircle">
+        <item>1</item>
+    </attr>
+    <attr name="layout_constraintCircleAngle">
+        <item>4</item>
+    </attr>
+    <attr name="layout_constraintCircleRadius">
+        <item>64</item>
+    </attr>
+    <attr name="layout_constraintDimensionRatio">
+        <item>2</item>
+    </attr>
+    <attr name="layout_constraintEnd_toEndOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintEnd_toStartOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintGuide_begin">
+        <item>64</item>
+    </attr>
+    <attr name="layout_constraintGuide_end">
+        <item>64</item>
+    </attr>
+    <attr name="layout_constraintGuide_percent">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constraintHeight_default">
+        <item>65536</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="layout_constraintHeight_max">
+        <item>65600</item>
+        <item>-2</item>
+    </attr>
+    <attr name="layout_constraintHeight_min">
+        <item>65600</item>
+        <item>-2</item>
+    </attr>
+    <attr name="layout_constraintHeight_percent">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constraintHorizontal_bias">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constraintHorizontal_chainStyle">
+        <item>65536</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="layout_constraintHorizontal_weight">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constraintLeft_creator">
+        <item>4</item>
+    </attr>
+    <attr name="layout_constraintLeft_toLeftOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintLeft_toRightOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintRight_creator">
+        <item>4</item>
+    </attr>
+    <attr name="layout_constraintRight_toLeftOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintRight_toRightOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintStart_toEndOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintStart_toStartOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintTop_creator">
+        <item>4</item>
+    </attr>
+    <attr name="layout_constraintTop_toBottomOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintTop_toTopOf">
+        <item>65537</item>
+        <item>0</item>
+    </attr>
+    <attr name="layout_constraintVertical_bias">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constraintVertical_chainStyle">
+        <item>65536</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="layout_constraintVertical_weight">
+        <item>32</item>
+    </attr>
+    <attr name="layout_constraintWidth_default">
+        <item>65536</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="layout_constraintWidth_max">
+        <item>65600</item>
+        <item>-2</item>
+    </attr>
+    <attr name="layout_constraintWidth_min">
+        <item>65600</item>
+        <item>-2</item>
+    </attr>
+    <attr name="layout_constraintWidth_percent">
+        <item>32</item>
+    </attr>
+    <attr name="layout_dodgeInsetEdges">
+        <item>131072</item>
+        <item>119</item>
+        <item>80</item>
+        <item>8388613</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>8388611</item>
+        <item>48</item>
+    </attr>
+    <attr name="layout_editor_absoluteX">
+        <item>64</item>
+    </attr>
+    <attr name="layout_editor_absoluteY">
+        <item>64</item>
+    </attr>
+    <attr name="layout_goneMarginBottom">
+        <item>64</item>
+    </attr>
+    <attr name="layout_goneMarginEnd">
+        <item>64</item>
+    </attr>
+    <attr name="layout_goneMarginLeft">
+        <item>64</item>
+    </attr>
+    <attr name="layout_goneMarginRight">
+        <item>64</item>
+    </attr>
+    <attr name="layout_goneMarginStart">
+        <item>64</item>
+    </attr>
+    <attr name="layout_goneMarginTop">
+        <item>64</item>
+    </attr>
+    <attr name="layout_insetEdge">
+        <item>65536</item>
+        <item>80</item>
+        <item>8388613</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>8388611</item>
+        <item>48</item>
+    </attr>
+    <attr name="layout_keyline">
+        <item>4</item>
+    </attr>
+    <attr name="layout_optimizationLevel">
+        <item>131072</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+    </attr>
+    <attr name="layout_scrollFlags">
+        <item>131072</item>
+        <item>4</item>
+        <item>8</item>
+        <item>2</item>
+        <item>1</item>
+        <item>16</item>
+    </attr>
+    <attr name="layout_scrollInterpolator">
+        <item>1</item>
+    </attr>
+    <attr name="lightnessSlider">
+        <item>8</item>
+    </attr>
+    <attr name="lightnessSliderView">
+        <item>1</item>
+    </attr>
+    <attr name="linePosition">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="lineWidth">
+        <item>64</item>
+    </attr>
+    <attr name="listChoiceBackgroundIndicator">
+        <item>1</item>
+    </attr>
+    <attr name="listDividerAlertDialog">
+        <item>1</item>
+    </attr>
+    <attr name="listItemLayout">
+        <item>1</item>
+    </attr>
+    <attr name="listLayout">
+        <item>1</item>
+    </attr>
+    <attr name="listMenuViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="listPopupWindowStyle">
+        <item>1</item>
+    </attr>
+    <attr name="listPreferredItemHeight">
+        <item>64</item>
+    </attr>
+    <attr name="listPreferredItemHeightLarge">
+        <item>64</item>
+    </attr>
+    <attr name="listPreferredItemHeightSmall">
+        <item>64</item>
+    </attr>
+    <attr name="listPreferredItemPaddingLeft">
+        <item>64</item>
+    </attr>
+    <attr name="listPreferredItemPaddingRight">
+        <item>64</item>
+    </attr>
+    <attr name="liteMode">
+        <item>8</item>
+    </attr>
+    <attr name="logo">
+        <item>1</item>
+    </attr>
+    <attr name="logoDescription">
+        <item>2</item>
+    </attr>
+    <attr name="magneticTargets">
+        <item>8</item>
+    </attr>
+    <attr name="mapType">
+        <item>65536</item>
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="maskColor">
+        <item>16</item>
+    </attr>
+    <attr name="matProg_barColor">
+        <item>16</item>
+    </attr>
+    <attr name="matProg_barSpinCycleTime">
+        <item>4</item>
+    </attr>
+    <attr name="matProg_barWidth">
+        <item>64</item>
+    </attr>
+    <attr name="matProg_circleRadius">
+        <item>64</item>
+    </attr>
+    <attr name="matProg_fillRadius">
+        <item>8</item>
+    </attr>
+    <attr name="matProg_linearProgress">
+        <item>8</item>
+    </attr>
+    <attr name="matProg_progressIndeterminate">
+        <item>8</item>
+    </attr>
+    <attr name="matProg_rimColor">
+        <item>16</item>
+    </attr>
+    <attr name="matProg_rimWidth">
+        <item>64</item>
+    </attr>
+    <attr name="matProg_spinSpeed">
+        <item>32</item>
+    </attr>
+    <attr name="maxActionInlineWidth">
+        <item>64</item>
+    </attr>
+    <attr name="maxButtonHeight">
+        <item>64</item>
+    </attr>
+    <attr name="maxHeight">
+        <item>64</item>
+    </attr>
+    <attr name="maxWidth">
+        <item>64</item>
+    </attr>
+    <attr name="measureWithLargestChild">
+        <item>8</item>
+    </attr>
+    <attr name="menu">
+        <item>1</item>
+    </attr>
+    <attr name="minHeight">
+        <item>64</item>
+    </attr>
+    <attr name="minWidth">
+        <item>64</item>
+    </attr>
+    <attr name="multiChoiceItemLayout">
+        <item>1</item>
+    </attr>
+    <attr name="name">
+        <item>2</item>
+    </attr>
+    <attr name="navigationContentDescription">
+        <item>2</item>
+    </attr>
+    <attr name="navigationIcon">
+        <item>1</item>
+    </attr>
+    <attr name="navigationMode">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </attr>
+    <attr name="np_dividerColor">
+        <item>16</item>
+    </attr>
+    <attr name="np_dividerDistance">
+        <item>64</item>
+    </attr>
+    <attr name="np_dividerThickness">
+        <item>64</item>
+    </attr>
+    <attr name="np_formatter">
+        <item>2</item>
+    </attr>
+    <attr name="np_height">
+        <item>64</item>
+    </attr>
+    <attr name="np_max">
+        <item>4</item>
+    </attr>
+    <attr name="np_min">
+        <item>4</item>
+    </attr>
+    <attr name="np_order">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="np_orientation">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="np_selectedTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="np_selectedTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="np_textColor">
+        <item>16</item>
+    </attr>
+    <attr name="np_textSize">
+        <item>64</item>
+    </attr>
+    <attr name="np_typeface">
+        <item>2</item>
+    </attr>
+    <attr name="np_value">
+        <item>4</item>
+    </attr>
+    <attr name="np_wheelItemCount">
+        <item>4</item>
+    </attr>
+    <attr name="np_width">
+        <item>64</item>
+    </attr>
+    <attr name="np_wrapSelectorWheel">
+        <item>8</item>
+    </attr>
+    <attr name="numberPickerStyle">
+        <item>1</item>
+    </attr>
+    <attr name="numericModifiers">
+        <item>131072</item>
+        <item>2</item>
+        <item>4096</item>
+        <item>8</item>
+        <item>65536</item>
+        <item>1</item>
+        <item>4</item>
+    </attr>
+    <attr name="orientation">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="outerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="outerRingDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="overlapAnchor">
+        <item>8</item>
+    </attr>
+    <attr name="paddingBottomNoButtons">
+        <item>64</item>
+    </attr>
+    <attr name="paddingEnd">
+        <item>64</item>
+    </attr>
+    <attr name="paddingStart">
+        <item>64</item>
+    </attr>
+    <attr name="paddingTopNoTitle">
+        <item>64</item>
+    </attr>
+    <attr name="padding_bottom">
+        <item>64</item>
+    </attr>
+    <attr name="padding_left">
+        <item>64</item>
+    </attr>
+    <attr name="padding_right">
+        <item>64</item>
+    </attr>
+    <attr name="padding_top">
+        <item>64</item>
+    </attr>
+    <attr name="pageColor">
+        <item>16</item>
+    </attr>
+    <attr name="pager_animation">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>15</item>
+        <item>14</item>
+    </attr>
+    <attr name="pager_animation_span">
+        <item>4</item>
+    </attr>
+    <attr name="panelBackground">
+        <item>1</item>
+    </attr>
+    <attr name="panelMenuListTheme">
+        <item>1</item>
+    </attr>
+    <attr name="panelMenuListWidth">
+        <item>64</item>
+    </attr>
+    <attr name="passwordToggleContentDescription">
+        <item>2</item>
+    </attr>
+    <attr name="passwordToggleDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="passwordToggleEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="passwordToggleTint">
+        <item>16</item>
+    </attr>
+    <attr name="passwordToggleTintMode">
+        <item>65536</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="pickerButtonCancel">
+        <item>3</item>
+    </attr>
+    <attr name="pickerButtonOk">
+        <item>3</item>
+    </attr>
+    <attr name="pickerTitle">
+        <item>3</item>
+    </attr>
+    <attr name="pointDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="popupMenuStyle">
+        <item>1</item>
+    </attr>
+    <attr name="popupTheme">
+        <item>1</item>
+    </attr>
+    <attr name="popupWindowStyle">
+        <item>1</item>
+    </attr>
+    <attr name="preserveIconSpacing">
+        <item>8</item>
+    </attr>
+    <attr name="pressedTranslationZ">
+        <item>64</item>
+    </attr>
+    <attr name="progressBarPadding">
+        <item>64</item>
+    </attr>
+    <attr name="progressBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="pstsDividerColor">
+        <item>16</item>
+    </attr>
+    <attr name="pstsDividerPadding">
+        <item>64</item>
+    </attr>
+    <attr name="pstsIndicatorColor">
+        <item>16</item>
+    </attr>
+    <attr name="pstsIndicatorHeight">
+        <item>64</item>
+    </attr>
+    <attr name="pstsScrollOffset">
+        <item>64</item>
+    </attr>
+    <attr name="pstsShouldExpand">
+        <item>8</item>
+    </attr>
+    <attr name="pstsTabBackground">
+        <item>1</item>
+    </attr>
+    <attr name="pstsTabPaddingLeftRight">
+        <item>64</item>
+    </attr>
+    <attr name="pstsTextAllCaps">
+        <item>8</item>
+    </attr>
+    <attr name="pstsUnderlineColor">
+        <item>16</item>
+    </attr>
+    <attr name="pstsUnderlineHeight">
+        <item>64</item>
+    </attr>
+    <attr name="queryBackground">
+        <item>1</item>
+    </attr>
+    <attr name="queryHint">
+        <item>2</item>
+    </attr>
+    <attr name="radioButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="ratingBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="ratingBarStyleIndicator">
+        <item>1</item>
+    </attr>
+    <attr name="ratingBarStyleSmall">
+        <item>1</item>
+    </attr>
+    <attr name="rcBackgroundColor">
+        <item>16</item>
+    </attr>
+    <attr name="rcBackgroundPadding">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconBackgroundColor">
+        <item>16</item>
+    </attr>
+    <attr name="rcIconHeight">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconPadding">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconPaddingBottom">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconPaddingLeft">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconPaddingRight">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconPaddingTop">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconSize">
+        <item>64</item>
+    </attr>
+    <attr name="rcIconSrc">
+        <item>4</item>
+    </attr>
+    <attr name="rcIconWidth">
+        <item>64</item>
+    </attr>
+    <attr name="rcMax">
+        <item>32</item>
+    </attr>
+    <attr name="rcProgress">
+        <item>32</item>
+    </attr>
+    <attr name="rcProgressColor">
+        <item>16</item>
+    </attr>
+    <attr name="rcRadius">
+        <item>64</item>
+    </attr>
+    <attr name="rcReverse">
+        <item>8</item>
+    </attr>
+    <attr name="rcSecondaryProgress">
+        <item>32</item>
+    </attr>
+    <attr name="rcSecondaryProgressColor">
+        <item>16</item>
+    </attr>
+    <attr name="rcTextProgress">
+        <item>2</item>
+    </attr>
+    <attr name="rcTextProgressColor">
+        <item>16</item>
+    </attr>
+    <attr name="rcTextProgressMargin">
+        <item>64</item>
+    </attr>
+    <attr name="rcTextProgressSize">
+        <item>64</item>
+    </attr>
+    <attr name="reverseLayout">
+        <item>8</item>
+    </attr>
+    <attr name="rippleColor">
+        <item>16</item>
+    </attr>
+    <attr name="roundedCorner">
+        <item>8</item>
+    </attr>
+    <attr name="scopeUris">
+        <item>3</item>
+    </attr>
+    <attr name="scrimAnimationDuration">
+        <item>4</item>
+    </attr>
+    <attr name="scrimVisibleHeightTrigger">
+        <item>64</item>
+    </attr>
+    <attr name="searchHintIcon">
+        <item>1</item>
+    </attr>
+    <attr name="searchIcon">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="seekBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="selectableItemBackground">
+        <item>1</item>
+    </attr>
+    <attr name="selectableItemBackgroundBorderless">
+        <item>1</item>
+    </attr>
+    <attr name="selectedBold">
+        <item>8</item>
+    </attr>
+    <attr name="selectedColor">
+        <item>16</item>
+    </attr>
+    <attr name="selectedColorIndex">
+        <item>4</item>
+    </attr>
+    <attr name="selected_color">
+        <item>16</item>
+    </attr>
+    <attr name="selected_drawable">
+        <item>1</item>
+    </attr>
+    <attr name="selected_height">
+        <item>64</item>
+    </attr>
+    <attr name="selected_padding_bottom">
+        <item>64</item>
+    </attr>
+    <attr name="selected_padding_left">
+        <item>64</item>
+    </attr>
+    <attr name="selected_padding_right">
+        <item>64</item>
+    </attr>
+    <attr name="selected_padding_top">
+        <item>64</item>
+    </attr>
+    <attr name="selected_width">
+        <item>64</item>
+    </attr>
+    <attr name="shape">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="shouldScaleToFill">
+        <item>8</item>
+    </attr>
+    <attr name="showAsAction">
+        <item>131072</item>
+        <item>2</item>
+        <item>8</item>
+        <item>1</item>
+        <item>0</item>
+        <item>4</item>
+    </attr>
+    <attr name="showDividers">
+        <item>131072</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+        <item>0</item>
+    </attr>
+    <attr name="showText">
+        <item>8</item>
+    </attr>
+    <attr name="showTitle">
+        <item>8</item>
+    </attr>
+    <attr name="showcaseViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="singleChoiceItemLayout">
+        <item>1</item>
+    </attr>
+    <attr name="singlePageFling">
+        <item>8</item>
+    </attr>
+    <attr name="slm_grid_columnWidth">
+        <item>64</item>
+    </attr>
+    <attr name="slm_grid_numColumns">
+        <item>65540</item>
+        <item>-1</item>
+    </attr>
+    <attr name="slm_headerDisplay">
+        <item>131072</item>
+        <item>4</item>
+        <item>1</item>
+        <item>8</item>
+        <item>2</item>
+        <item>16</item>
+    </attr>
+    <attr name="slm_isHeader">
+        <item>8</item>
+    </attr>
+    <attr name="slm_section_firstPosition">
+        <item>4</item>
+    </attr>
+    <attr name="slm_section_headerMarginEnd">
+        <item>65600</item>
+        <item>-1</item>
+    </attr>
+    <attr name="slm_section_headerMarginStart">
+        <item>65600</item>
+        <item>-1</item>
+    </attr>
+    <attr name="slm_section_sectionManager">
+        <item>65538</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+    </attr>
+    <attr name="snap">
+        <item>8</item>
+    </attr>
+    <attr name="snapMargin">
+        <item>64</item>
+    </attr>
+    <attr name="spanCount">
+        <item>4</item>
+    </attr>
+    <attr name="spbStyle">
+        <item>1</item>
+    </attr>
+    <attr name="spb_background">
+        <item>1</item>
+    </attr>
+    <attr name="spb_color">
+        <item>16</item>
+    </attr>
+    <attr name="spb_colors">
+        <item>1</item>
+    </attr>
+    <attr name="spb_generate_background_with_colors">
+        <item>8</item>
+    </attr>
+    <attr name="spb_gradients">
+        <item>8</item>
+    </attr>
+    <attr name="spb_interpolator">
+        <item>65536</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+    </attr>
+    <attr name="spb_mirror_mode">
+        <item>8</item>
+    </attr>
+    <attr name="spb_progressiveStart_activated">
+        <item>8</item>
+    </attr>
+    <attr name="spb_progressiveStart_speed">
+        <item>32</item>
+    </attr>
+    <attr name="spb_progressiveStop_speed">
+        <item>32</item>
+    </attr>
+    <attr name="spb_reversed">
+        <item>8</item>
+    </attr>
+    <attr name="spb_sections_count">
+        <item>4</item>
+    </attr>
+    <attr name="spb_speed">
+        <item>32</item>
+    </attr>
+    <attr name="spb_stroke_separator_length">
+        <item>64</item>
+    </attr>
+    <attr name="spb_stroke_width">
+        <item>64</item>
+    </attr>
+    <attr name="spinBars">
+        <item>8</item>
+    </attr>
+    <attr name="spinnerDropDownItemStyle">
+        <item>1</item>
+    </attr>
+    <attr name="spinnerStyle">
+        <item>1</item>
+    </attr>
+    <attr name="splitTrack">
+        <item>8</item>
+    </attr>
+    <attr name="squaredFinder">
+        <item>8</item>
+    </attr>
+    <attr name="srcCompat">
+        <item>1</item>
+    </attr>
+    <attr name="stackFromEnd">
+        <item>8</item>
+    </attr>
+    <attr name="state_above_anchor">
+        <item>8</item>
+    </attr>
+    <attr name="state_collapsed">
+        <item>8</item>
+    </attr>
+    <attr name="state_collapsible">
+        <item>8</item>
+    </attr>
+    <attr name="statusBarBackground">
+        <item>1</item>
+    </attr>
+    <attr name="statusBarScrim">
+        <item>16</item>
+    </attr>
+    <attr name="strokeColor">
+        <item>16</item>
+    </attr>
+    <attr name="strokeWidth">
+        <item>64</item>
+    </attr>
+    <attr name="subMenuArrow">
+        <item>1</item>
+    </attr>
+    <attr name="submitBackground">
+        <item>1</item>
+    </attr>
+    <attr name="subtitle">
+        <item>2</item>
+    </attr>
+    <attr name="subtitleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="subtitleTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="subtitleTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="suffix">
+        <item>2</item>
+    </attr>
+    <attr name="suffixDay">
+        <item>2</item>
+    </attr>
+    <attr name="suffixDayLeftMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixDayRightMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixGravity">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="suffixHour">
+        <item>2</item>
+    </attr>
+    <attr name="suffixHourLeftMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixHourRightMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixLRMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixMillisecond">
+        <item>2</item>
+    </attr>
+    <attr name="suffixMillisecondLeftMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixMinute">
+        <item>2</item>
+    </attr>
+    <attr name="suffixMinuteLeftMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixMinuteRightMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixSecond">
+        <item>2</item>
+    </attr>
+    <attr name="suffixSecondLeftMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixSecondRightMargin">
+        <item>64</item>
+    </attr>
+    <attr name="suffixTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="suffixTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="suggestionRowLayout">
+        <item>1</item>
+    </attr>
+    <attr name="sv_backgroundColor">
+        <item>17</item>
+    </attr>
+    <attr name="sv_buttonBackgroundColor">
+        <item>17</item>
+    </attr>
+    <attr name="sv_buttonForegroundColor">
+        <item>17</item>
+    </attr>
+    <attr name="sv_buttonText">
+        <item>3</item>
+    </attr>
+    <attr name="sv_detailTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="sv_detailTextColor">
+        <item>17</item>
+    </attr>
+    <attr name="sv_showcaseColor">
+        <item>17</item>
+    </attr>
+    <attr name="sv_tintButtonColor">
+        <item>9</item>
+    </attr>
+    <attr name="sv_titleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="sv_titleTextColor">
+        <item>17</item>
+    </attr>
+    <attr name="switchMinWidth">
+        <item>64</item>
+    </attr>
+    <attr name="switchPadding">
+        <item>64</item>
+    </attr>
+    <attr name="switchStyle">
+        <item>1</item>
+    </attr>
+    <attr name="switchTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="tabBackground">
+        <item>1</item>
+    </attr>
+    <attr name="tabContentStart">
+        <item>64</item>
+    </attr>
+    <attr name="tabGravity">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="tabIndicatorColor">
+        <item>16</item>
+    </attr>
+    <attr name="tabIndicatorHeight">
+        <item>64</item>
+    </attr>
+    <attr name="tabMaxWidth">
+        <item>64</item>
+    </attr>
+    <attr name="tabMinWidth">
+        <item>64</item>
+    </attr>
+    <attr name="tabMode">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="tabPadding">
+        <item>64</item>
+    </attr>
+    <attr name="tabPaddingBottom">
+        <item>64</item>
+    </attr>
+    <attr name="tabPaddingEnd">
+        <item>64</item>
+    </attr>
+    <attr name="tabPaddingStart">
+        <item>64</item>
+    </attr>
+    <attr name="tabPaddingTop">
+        <item>64</item>
+    </attr>
+    <attr name="tabSelectedTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="tabTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="tabTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="targetDescriptions">
+        <item>1</item>
+    </attr>
+    <attr name="targetDrawables">
+        <item>1</item>
+    </attr>
+    <attr name="textAllCaps">
+        <item>9</item>
+    </attr>
+    <attr name="textAppearanceLargePopupMenu">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceListItem">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceListItemSecondary">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceListItemSmall">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearancePopupMenuHeader">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceSearchResultSubtitle">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceSearchResultTitle">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceSmallPopupMenu">
+        <item>1</item>
+    </attr>
+    <attr name="textColorAlertDialogListItem">
+        <item>17</item>
+    </attr>
+    <attr name="textColorError">
+        <item>17</item>
+    </attr>
+    <attr name="textColorSearchUrl">
+        <item>17</item>
+    </attr>
+    <attr name="text_color">
+        <item>16</item>
+    </attr>
+    <attr name="theme">
+        <item>1</item>
+    </attr>
+    <attr name="thickness">
+        <item>64</item>
+    </attr>
+    <attr name="thumbTextPadding">
+        <item>64</item>
+    </attr>
+    <attr name="thumbTint">
+        <item>16</item>
+    </attr>
+    <attr name="thumbTintMode">
+        <item>65536</item>
+        <item>16</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="tickMark">
+        <item>1</item>
+    </attr>
+    <attr name="tickMarkTint">
+        <item>16</item>
+    </attr>
+    <attr name="tickMarkTintMode">
+        <item>65536</item>
+        <item>16</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="timeBgBorderColor">
+        <item>16</item>
+    </attr>
+    <attr name="timeBgBorderRadius">
+        <item>64</item>
+    </attr>
+    <attr name="timeBgBorderSize">
+        <item>64</item>
+    </attr>
+    <attr name="timeBgColor">
+        <item>16</item>
+    </attr>
+    <attr name="timeBgDivisionLineColor">
+        <item>16</item>
+    </attr>
+    <attr name="timeBgDivisionLineSize">
+        <item>64</item>
+    </attr>
+    <attr name="timeBgRadius">
+        <item>64</item>
+    </attr>
+    <attr name="timeBgSize">
+        <item>64</item>
+    </attr>
+    <attr name="timeTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="timeTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="tint">
+        <item>16</item>
+    </attr>
+    <attr name="tintMode">
+        <item>65536</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="title">
+        <item>2</item>
+    </attr>
+    <attr name="titleEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="titleMargin">
+        <item>64</item>
+    </attr>
+    <attr name="titleMarginBottom">
+        <item>64</item>
+    </attr>
+    <attr name="titleMarginEnd">
+        <item>64</item>
+    </attr>
+    <attr name="titleMarginStart">
+        <item>64</item>
+    </attr>
+    <attr name="titleMarginTop">
+        <item>64</item>
+    </attr>
+    <attr name="titleMargins">
+        <item>64</item>
+    </attr>
+    <attr name="titlePadding">
+        <item>64</item>
+    </attr>
+    <attr name="titleTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="titleTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="titleTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="toolbarId">
+        <item>1</item>
+    </attr>
+    <attr name="toolbarNavigationButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="toolbarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="tooltipForegroundColor">
+        <item>17</item>
+    </attr>
+    <attr name="tooltipFrameBackground">
+        <item>1</item>
+    </attr>
+    <attr name="tooltipText">
+        <item>2</item>
+    </attr>
+    <attr name="topPadding">
+        <item>64</item>
+    </attr>
+    <attr name="track">
+        <item>1</item>
+    </attr>
+    <attr name="trackTint">
+        <item>16</item>
+    </attr>
+    <attr name="trackTintMode">
+        <item>65536</item>
+        <item>16</item>
+        <item>14</item>
+        <item>15</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+    </attr>
+    <attr name="triggerOffset">
+        <item>32</item>
+    </attr>
+    <attr name="uiCompass">
+        <item>8</item>
+    </attr>
+    <attr name="uiMapToolbar">
+        <item>8</item>
+    </attr>
+    <attr name="uiRotateGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiScrollGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiTiltGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiZoomControls">
+        <item>8</item>
+    </attr>
+    <attr name="uiZoomGestures">
+        <item>8</item>
+    </attr>
+    <attr name="unselectedColor">
+        <item>16</item>
+    </attr>
+    <attr name="unselected_color">
+        <item>16</item>
+    </attr>
+    <attr name="unselected_drawable">
+        <item>1</item>
+    </attr>
+    <attr name="unselected_height">
+        <item>64</item>
+    </attr>
+    <attr name="unselected_padding_bottom">
+        <item>64</item>
+    </attr>
+    <attr name="unselected_padding_left">
+        <item>64</item>
+    </attr>
+    <attr name="unselected_padding_right">
+        <item>64</item>
+    </attr>
+    <attr name="unselected_padding_top">
+        <item>64</item>
+    </attr>
+    <attr name="unselected_width">
+        <item>64</item>
+    </attr>
+    <attr name="useCompatPadding">
+        <item>8</item>
+    </attr>
+    <attr name="useViewLifecycle">
+        <item>8</item>
+    </attr>
+    <attr name="vibrationDuration">
+        <item>4</item>
+    </attr>
+    <attr name="visibility">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="voiceIcon">
+        <item>1</item>
+    </attr>
+    <attr name="vpiCirclePageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="vpiIconPageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="vpiLinePageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="vpiTabPageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="vpiTitlePageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="vpiUnderlinePageIndicatorStyle">
+        <item>1</item>
+    </attr>
+    <attr name="wheelType">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="windowActionBar">
+        <item>8</item>
+    </attr>
+    <attr name="windowActionBarOverlay">
+        <item>8</item>
+    </attr>
+    <attr name="windowActionModeOverlay">
+        <item>8</item>
+    </attr>
+    <attr name="windowFixedHeightMajor">
+        <item>192</item>
+    </attr>
+    <attr name="windowFixedHeightMinor">
+        <item>192</item>
+    </attr>
+    <attr name="windowFixedWidthMajor">
+        <item>192</item>
+    </attr>
+    <attr name="windowFixedWidthMinor">
+        <item>192</item>
+    </attr>
+    <attr name="windowMinWidthMajor">
+        <item>192</item>
+    </attr>
+    <attr name="windowMinWidthMinor">
+        <item>192</item>
+    </attr>
+    <attr name="windowNoTitle">
+        <item>8</item>
+    </attr>
+    <attr name="zOrderOnTop">
+        <item>8</item>
+    </attr>
+</resources>

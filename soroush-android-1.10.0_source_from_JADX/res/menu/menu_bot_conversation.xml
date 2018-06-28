@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_create_poll" app:id="@id/action_create_poll" app:visible="false" app:orderInCategory="100" app:title="@string/create_poll" app:showAsAction="ifRoom" />
+    <item app:id="@id/action_search_chat" app:orderInCategory="100" app:title="@string/action_search_chat" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="collapseActionView" />
+    <item app:id="@id/action_mute_notification" app:visible="true" app:orderInCategory="100" app:title="@string/action_mute_notification" app:checkable="true" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_show_interactive_messages" app:visible="false" app:orderInCategory="100" app:title="@string/action_show_interactive_messages" app:checkable="true" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_payment" app:visible="false" app:orderInCategory="100" app:title="@string/action_payment" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_clear_history" app:orderInCategory="100" app:title="@string/action_clear_history" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_report" app:orderInCategory="100" app:title="@string/action_report" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/frame_layout_root" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3a01">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/root_relativeLayout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/MyItemBackgroundStyle">
+        <TextView android:textSize="@dimen/contacts_list_item_text" android:textColor="@color/textColorPrimary" android:id="@id/textView1" android:paddingLeft="@dimen/material_margin_extra" android:paddingRight="@dimen/material_margin_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text" android:maxLines="1" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/contacts_list_item_text" android:textColor="@color/textColorPrimary" android:id="@id/textView2" android:paddingRight="@dimen/material_margin_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/divider_line" android:background="@color/dividerColor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="@dimen/material_margin_wide" android:layout_marginRight="@dimen/material_margin_wide" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_navigation_check_white" app:id="@id/action_done" app:visible="false" app:orderInCategory="1" app:title="@string/action_done" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/ic_edit" app:id="@id/action_edit" app:orderInCategory="1" app:title="@string/action_edit" app:showAsAction="ifRoom" />
+    <item app:id="@id/action_leave_group" app:visible="false" app:orderInCategory="100" app:title="@string/action_leave_group" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_leave_and_delete" app:orderInCategory="100" app:title="@string/action_leave_and_delete" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_add_participants" app:orderInCategory="100" app:title="@string/action_add_participants" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_create_invite_group_link" app:visible="false" app:orderInCategory="100" app:title="@string/action_create_an_invite_link" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_report" app:orderInCategory="100" app:title="@string/action_report" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

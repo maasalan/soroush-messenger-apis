@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/MyItemBackgroundStyle">
+    <TextView android:textSize="@dimen/conversations_list_item_details_text" android:textColor="@color/textColorPrimary" android:id="@id/change_log" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="My First Log" android:drawableRight="@drawable/ic_message_tick" android:drawablePadding="8dp" />
+</LinearLayout>

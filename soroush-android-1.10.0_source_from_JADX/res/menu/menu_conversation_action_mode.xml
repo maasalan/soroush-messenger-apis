@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_mode_reply" app:id="@id/action_reply" app:orderInCategory="1" app:title="@string/action_reply" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_action_mode_content_copy" app:id="@id/action_copy" app:orderInCategory="2" app:title="@string/action_copy" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_action_forward" app:id="@id/action_forward" app:orderInCategory="2" app:title="@string/action_forward" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_action_mode_delete" app:id="@id/action_delete" app:orderInCategory="2" app:title="@string/action_delete" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_share_white_24" app:id="@id/action_share" app:visible="false" app:orderInCategory="3" app:title="@string/action_share" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_edit" app:id="@id/action_edit" app:visible="false" app:orderInCategory="3" app:title="@string/action_edit" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_add_to_stickers" app:visible="false" app:orderInCategory="3" app:title="@string/action_add_to_stickers" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_save_to_gallery" app:visible="false" app:orderInCategory="3" app:title="@string/save_media" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_forward_to_me" app:visible="false" app:orderInCategory="3" app:title="@string/forward_to_me" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

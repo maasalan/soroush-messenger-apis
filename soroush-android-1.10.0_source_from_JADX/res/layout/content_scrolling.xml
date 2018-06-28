@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res-auto" wheel:id="@id/root_nestedScrollView" wheel:layout_width="match_parent" wheel:layout_height="match_parent" wheel:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <RelativeLayout wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+        <FrameLayout wheel:id="@id/overview_frameLayout" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:layout_marginTop="32dp" wheel:layout_alignParentTop="true">
+            <mobi.mmdt.ott.view.components.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/overview_progressBar" wheel:padding="4dp" wheel:layout_width="UNKNOWN_DATA_0x3801" wheel:layout_height="UNKNOWN_DATA_0x3801" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_linearProgress="true" wheel:matProg_progressIndeterminate="true" />
+            <ImageView wheel:id="@id/overview_imageView" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout wheel:orientation="vertical" wheel:id="@id/designer_linearLayout" wheel:visibility="gone" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:layout_marginLeft="16dp" wheel:layout_marginTop="16dp" wheel:layout_marginRight="16dp" wheel:layout_below="@id/overview_frameLayout">
+            <TextView wheel:textSize="12sp" wheel:textColor="@color/textColorPrimary" wheel:id="@id/designed_by_textView" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:text="@string/designed_by" />
+            <TextView wheel:textSize="12sp" wheel:textColor="@color/textColorPrimary" wheel:id="@id/designer_textView" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:text="" />
+            <View wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x1001" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:orientation="vertical" wheel:paddingTop="?attr/actionBarSize" wheel:layout_width="match_parent" wheel:layout_height="wrap_content"
+    <FrameLayout wheel:id="@id/root_collapse_frameLayout" wheel:background="@color/colorFrame" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+        <LinearLayout wheel:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:orientation="vertical" wheel:id="@id/layout1" wheel:paddingLeft="128dp" wheel:paddingRight="16dp" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+            <TextView wheel:textColor="@color/textColorPrimaryNewDesign" wheel:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/sticker_detail_1" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:text="" wheel:maxLines="1" />
+            <TextView wheel:textColor="@color/textColorPrimaryNewDesign" wheel:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/sticker_detail_2" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:text="" wheel:maxLines="1" />
+            <TextView wheel:textColor="@color/textColorPrimaryNewDesign" wheel:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/sticker_detail_3" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:text="" wheel:maxLines="2" />
+        </LinearLayout>
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/thumbnail_imageView" wheel:layout_width="UNKNOWN_DATA_0x6001" wheel:layout_height="UNKNOWN_DATA_0x6001" wheel:layout_margin="16dp" wheel:scaleType="fitCenter" wheel:background_color="0x106000b" />
+        <FrameLayout wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:layout_width="UNKNOWN_DATA_0x6001" wheel:layout_height="UNKNOWN_DATA_0x6001" wheel:layout_margin="16dp">
+            <mobi.mmdt.ott.view.components.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/thumbnail_progressBar" wheel:layout_width="UNKNOWN_DATA_0x2a01" wheel:layout_height="UNKNOWN_DATA_0x2a01" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_linearProgress="true" wheel:matProg_progressIndeterminate="true" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

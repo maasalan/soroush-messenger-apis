@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/balloon_color_shadow" />
+            <corners android:topLeftRadius="0dp" android:topRightRadius="@dimen/material_margin_medium" android:bottomLeftRadius="@dimen/material_margin_medium" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+    <item android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/balloon_color_unknown_input" />
+            <corners android:topLeftRadius="0dp" android:topRightRadius="@dimen/material_margin_medium" android:bottomLeftRadius="@dimen/material_margin_medium" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>

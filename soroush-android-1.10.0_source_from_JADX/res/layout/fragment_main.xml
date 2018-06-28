@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#fff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <tcking.github.com.giraffeplayer2.VideoView android:id="@id/video_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb401" android:layout_margin="8dp" />
+    <EditText android:id="@id/et_url" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="play/pause in embed player" android:textAllCaps="false" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_full" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="toggle full screen" android:textAllCaps="false" />
+            <CheckBox android:id="@id/cb_pwf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="portrait when fullScreen" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_play_in_standalone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="play in standalone player" android:textAllCaps="false" />
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aspect ratio：" />
+            <RadioGroup android:id="@id/rg_ra" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/rb_fill_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="fill parent" />
+                <RadioButton android:id="@id/rb_fit_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="fit parent" />
+                <RadioButton android:id="@id/rb_wrap_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="wrap content" />
+                <RadioButton android:id="@id/rb_match_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="match parent" />
+                <RadioButton android:id="@id/rb_16_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16:9" />
+                <RadioButton android:id="@id/rb_4_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4:3" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/btn_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="video in list example" android:textAllCaps="false" />
+</LinearLayout>

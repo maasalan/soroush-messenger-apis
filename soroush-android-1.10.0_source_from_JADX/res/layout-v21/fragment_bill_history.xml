@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root_layout" android:background="@color/window_background_dark" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/top_frameLayout" android:paddingTop="@dimen/material_margin_wide" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="2dp">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/charge_history_imageView" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/material_margin_wide" android:src="@drawable/ic_action_perm_media" />
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/textColorSecondary" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/charge_history_title" android:paddingLeft="56dp" android:paddingTop="@dimen/material_margin_wide" android:paddingRight="56dp" android:paddingBottom="@dimen/material_margin_wide" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/charge_history" android:maxLines="1" style="@style/MyItemBackgroundStyle" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/root_recycler_view_linear_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/top_frameLayout" android:elevation="2dp">
+        <View android:id="@id/spacer_view" android:background="@color/window_background_dark" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700ce" />
+        <View android:background="@color/window_background_dark" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700ce" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:theme="@style/MyEdgeOverlayTheme" android:id="@id/recycler_view" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/contactsListRecyclerViewStyle" />
+        </FrameLayout>
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700ce" />
+    </LinearLayout>
+</RelativeLayout>

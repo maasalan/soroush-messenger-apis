@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/weather_forecast_panel_bony_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+    <TextView android:textSize="18sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/weather_chart_text" android:paddingRight="18dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="پیش بینی ساعتی - 13 تیر" android:drawableRight="@drawable/ic_clock" android:drawablePadding="8dp" />
+    <lecho.lib.hellocharts.view.LineChartView android:id="@id/weather_chart_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9601" android:layout_below="@id/weather_chart_text" />
+</RelativeLayout>

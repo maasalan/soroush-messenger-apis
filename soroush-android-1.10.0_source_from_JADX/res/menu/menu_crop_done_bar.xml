@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_rotate_left_white_24dp" app:id="@id/action_left_rotate" app:orderInCategory="1" app:title="@string/action_lef_rotate" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/ic_rotate_right_white_24dp" app:id="@id/action_right_rotate" app:orderInCategory="1" app:title="@string/action_right_rotate" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/ic_action_navigation_check" app:id="@id/action_done" app:orderInCategory="1" app:title="@string/action_done" app:showAsAction="always" />
+</menu>

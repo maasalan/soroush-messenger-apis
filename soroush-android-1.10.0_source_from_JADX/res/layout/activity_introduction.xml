@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5.0">
+    <FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="4.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="7.0">
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="4.0" />
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="3.0" />
+        </LinearLayout>
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="4.0" />
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <TextView android:textSize="17sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/enter" android:background="@drawable/introduction_enter_selector_background" android:padding="8dp" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/enter" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/circles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="23dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true" />
+        <android.support.v7.widget.AppCompatButton android:textSize="15sp" android:textColor="#8c8c8c" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/skip" android:paddingLeft="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp" android:text="@string/skip_text" android:layout_alignParentBottom="true" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+    </RelativeLayout>
+</LinearLayout>

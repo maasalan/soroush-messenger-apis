@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/MyItemForegroundStyle"
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_frameLayout" android:background="@color/colorFrame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/content_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/bottom_gradient_view" android:background="@drawable/shadow_chat_image_gradient_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700f9" />
+        <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@dimen/material_margin_low" android:paddingTop="@dimen/material_margin_low" android:paddingRight="@dimen/material_margin_medium" android:paddingBottom="@dimen/material_margin_low" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/chat_time_text_size" android:textColor="@color/white" android:id="@id/filesCount_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text" android:maxLines="1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_low" android:paddingRight="@dimen/material_margin_low" android:paddingBottom="@dimen/material_margin_low" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/chat_time_text_size" android:textColor="@color/white" android:id="@id/folderName_textView" android:layout_width="UNKNOWN_DATA_0x6001" android:layout_height="wrap_content" android:text="New Text" android:maxLines="1" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

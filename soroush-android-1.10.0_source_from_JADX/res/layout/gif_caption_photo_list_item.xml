@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_frameLayout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_frameLayout" android:background="@color/colorFrame" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/MyItemForegroundStyle">
+        <ImageView android:id="@id/content_imageView" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/select_lines_frameLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/white" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+            <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/white" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/action_imageView" android:background="@drawable/chat_image_action_selector" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginTop="@dimen/material_margin_low" android:layout_marginRight="@dimen/material_margin_low" android:src="@drawable/ic_remove_image_caption" android:scaleType="fitCenter" />
+</FrameLayout>

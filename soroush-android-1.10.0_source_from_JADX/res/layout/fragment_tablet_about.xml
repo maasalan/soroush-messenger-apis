@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_centerInParent="true">
+    <View app:id="@id/background_color" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <ImageView app:id="@id/background_imageView" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" />
+    <android.support.v7.widget.Toolbar app:theme="@style/TransparentToolbarActivityTheme" app:id="@id/toolbar" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:contentInsetStartWithNavigation="0dp" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance" />
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="2dp" app:weightSum="5.0" app:layout_below="@id/toolbar" app:layout_centerHorizontal="true"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="3.0">
+            <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/logo_imageView" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="12dp" app:src="@drawable/support_logo" />
+        </LinearLayout>
+        <LinearLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="2.0">
+            <TextView app:textSize="16sp" app:textColor="@color/white" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/about_support_textView" app:background="@color/transparent" app:paddingLeft="24dp" app:paddingRight="24dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="32dp" app:text="@string/support_soroush" />
+            <LinearLayout app:orientation="horizontal" app:paddingLeft="24dp" app:paddingRight="24dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="24dp" app:weightSum="3.0">
+                <RelativeLayout app:id="@id/support_layout" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <ImageView app:id="@id/support_image_view" app:padding="12dp" app:layout_width="UNKNOWN_DATA_0x3c01" app:layout_height="UNKNOWN_DATA_0x3c01" app:src="@drawable/ic_support_design" app:layout_centerHorizontal="true" />
+                    <TextView app:id="@id/support_text_view" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/support" app:layout_below="@id/support_image_view" app:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout app:id="@id/help_layout" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <ImageView app:id="@id/help_image_view" app:padding="12dp" app:layout_width="UNKNOWN_DATA_0x3c01" app:layout_height="UNKNOWN_DATA_0x3c01" app:src="@drawable/ic_faq_design" app:layout_centerHorizontal="true" />
+                    <TextView app:id="@id/help_text_view" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/help" app:layout_below="@id/help_image_view" app:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout app:id="@id/email_layout" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <ImageView app:id="@id/email_image_view" app:padding="12dp" app:layout_width="UNKNOWN_DATA_0x3c01" app:layout_height="UNKNOWN_DATA_0x3c01" app:src="@drawable/ic_mail_design" app:layout_centerHorizontal="true" />
+                    <TextView app:id="@id/email_text_view" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/email" app:layout_below="@id/email_image_view" app:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView app:textSize="14sp" app:textColor="@color/white" app:id="@id/about_website_textView" app:background="@color/transparent" app:paddingBottom="@dimen/material_margin_low" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="12dp" app:layout_marginBottom="8dp" app:text="@string/about_2" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+</RelativeLayout>

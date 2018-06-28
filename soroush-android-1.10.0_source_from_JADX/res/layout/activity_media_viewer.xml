@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:id="@id/root_layout" wheel:background="@color/black" wheel:fitsSystemWindows="true" wheel:layout_width="match_parent" wheel:layout_height="match_parent">
+    <mobi.mmdt.ott.view.components.recyclerviewpager.RecyclerViewPager wheel:id="@id/recyclerViewPager" wheel:fitsSystemWindows="true" wheel:clipChildren="false" wheel:clipToPadding="false" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+    <mobi.mmdt.ott.view.components.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/progress_wheel" wheel:layout_width="UNKNOWN_DATA_0x3801" wheel:layout_height="UNKNOWN_DATA_0x3801" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_linearProgress="true" wheel:matProg_progressIndeterminate="true" />
+    <android.support.v7.widget.Toolbar wheel:theme="@style/TransparentToolbarActivityTheme" wheel:id="@id/toolbar" wheel:background="@color/colorTransparentToolbarBackground" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x7f040006" wheel:layout_alignParentTop="true" wheel:contentInsetStartWithNavigation="0dp" wheel:layout_scrollFlags="5" wheel:popupTheme="@style/ThemeOverlay.AppCompat.Dark" wheel:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" wheel:titleTextAppearance="@style/expandedShadowedTitleTextAppearance" />
+    <FrameLayout wheel:layout_width="match_parent" wheel:layout_height="match_parent">
+        <LinearLayout wheel:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:orientation="vertical" wheel:id="@id/details_layout" wheel:background="@color/colorCaptionEditTextBackground" wheel:paddingLeft="16dp" wheel:paddingTop="8dp" wheel:paddingRight="16dp" wheel:paddingBottom="8dp" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+            <TextView wheel:textColor="@color/white" wheel:id="@id/caption_textView" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" />
+            <TextView wheel:textSize="@dimen/chat_time_text_size" wheel:textColor="@color/white" wheel:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/details_textView" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

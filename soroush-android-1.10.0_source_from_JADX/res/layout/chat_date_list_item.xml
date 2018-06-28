@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root_chat_item_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/event_text_size" android:textColor="@color/balloon_text_color_date" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/date_textView" android:background="@drawable/chat_item_date_background" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="2dp" android:paddingRight="@dimen/material_margin_medium" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+</LinearLayout>

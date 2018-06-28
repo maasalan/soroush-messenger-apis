@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root_layout" android:paddingLeft="@dimen/material_margin_wide" android:paddingTop="@dimen/material_margin_wide" android:paddingRight="@dimen/material_margin_wide" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <EditText android:enabled="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:maxLines="1" android:layout_alignParentTop="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:imeOptions="flagNoExtractUi" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:id="@id/channelName_textInputLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide">
+                <EditText android:textColor="@color/edit_text_text_color_selector" android:id="@id/channelName_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/channel_name" android:maxLines="1" android:imeOptions="flagNoExtractUi" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:id="@id/channelDescriptions_textInputLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide">
+                <EditText android:textColor="@color/edit_text_text_color_selector" android:id="@id/channelDescriptions_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/channel_descriptions" android:maxLines="1" android:imeOptions="flagNoExtractUi" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <FrameLayout android:paddingTop="@dimen/material_margin_wide" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatCheckBox android:textSize="@dimen/welcome_content" android:textColor="@color/textColorPrimary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/allowReply_checkBox" android:paddingLeft="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/allow_reply_channel" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

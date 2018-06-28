@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="horizontal" app:background="@color/red" app:padding="5dp" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+        <ImageView app:id="@id/imageView3" app:layout_width="UNKNOWN_DATA_0x2d01" app:layout_height="UNKNOWN_DATA_0x2d01" app:src="@drawable/ic_music_placeholder" />
+    </LinearLayout>
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:paddingLeft="10dp" app:paddingRight="10dp" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="3.0">
+        <TextView app:textSize="16sp" app:textColor="@color/white" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/title_textView" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="New Textasdsaddsads asdsadsa dsd a a a a asdsda s" app:maxLines="1" />
+        <TextView app:textSize="12sp" app:textColor="@color/white" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/description_textView" app:paddingTop="2dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="The Wall" app:maxLines="2" />
+    </LinearLayout>
+    <LinearLayout app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="2.0">
+        <ImageView app:id="@id/btnPrevious" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_default_previous_white" />
+        <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/btnPlay" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_play_arrow_white_24dp" />
+        <ImageView app:id="@id/btnNext" app:background="0x0" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_default_next_white" style="@style/MyItemBackgroundStyle" />
+    </LinearLayout>
+    <ImageButton app:id="@id/imageButton4" app:background="0x0" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="UNKNOWN_DATA_0x1e01" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_wait_close_24dp" />
+</LinearLayout>

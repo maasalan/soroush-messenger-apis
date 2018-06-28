@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content" app:elevation="0dp">
+    <include layout="@layout/main_fragment_toolbar" />
+    <android.support.design.widget.TabLayout app:id="@id/tabs" app:layout_width="match_parent" app:layout_height="wrap_content" app:tabGravity="0" />
+    <View app:id="@id/shadow_line_top" app:background="@drawable/shadow_line_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" />
+</android.support.design.widget.AppBarLayout>

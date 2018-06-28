@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:background="0x106000b" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+    <mobi.mmdt.ott.view.components.ProgressWheel wheel:id="@id/progress_wheel" wheel:layout_width="UNKNOWN_DATA_0x5001" wheel:layout_height="UNKNOWN_DATA_0x5001" wheel:layout_alignParentLeft="true" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_progressIndeterminate="true" />
+    <TextView wheel:textColor="@color/textColorPrimary" wheel:id="@id/textView" wheel:paddingLeft="2dp" wheel:paddingRight="56dp" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:text="@string/please_wait_" wheel:layout_toRightOf="@id/progress_wheel" wheel:layout_alignParentRight="true" wheel:layout_centerVertical="true" />
+    <ImageView wheel:id="@id/cancel_button" wheel:padding="8dp" wheel:clickable="true" wheel:layout_width="UNKNOWN_DATA_0x2801" wheel:layout_height="UNKNOWN_DATA_0x2801" wheel:scaleType="fitCenter" wheel:layout_alignParentTop="true" wheel:layout_alignParentRight="true" wheel:srcCompat="@drawable/ic_wait_close_24dp" style="@style/MyItemBackgroundStyle" />
+</RelativeLayout>

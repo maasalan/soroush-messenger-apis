@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="3.0"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_notificatio_pray_image_1" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@mipmap/ic_launcher2" android:scaleType="fitCenter" />
+                <TextView android:id="@id/iv_notificatio_pray_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SoroushServicesNotificationText" />
+                <TextView android:id="@id/iv_notificatio_pray_time_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SoroushServicesNotificationText" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_notificatio_pray_image_2" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@mipmap/ic_launcher2" android:scaleType="fitCenter" />
+                <TextView android:id="@id/iv_notificatio_pray_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SoroushServicesNotificationText" />
+                <TextView android:id="@id/iv_notificatio_pray_time_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SoroushServicesNotificationText" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_notificatio_pray_image_3" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:scaleType="fitCenter" />
+                <TextView android:id="@id/iv_notificatio_pray_name_3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SoroushServicesNotificationText" />
+                <TextView android:id="@id/iv_notificatio_pray_time_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sghl" style="@style/SoroushServicesNotificationText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f070110" android:layout_height="UNKNOWN_DATA_0x7f070110" android:src="@drawable/ic_service_owghat" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

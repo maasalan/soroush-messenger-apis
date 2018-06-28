@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.theartofdev.edmodo.cropper.CropImageView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c2264a/cropImageView" app:layout_width="match_parent" app:layout_height="match_parent" app:cropAutoZoomEnabled="false" app:cropScaleType="3" />

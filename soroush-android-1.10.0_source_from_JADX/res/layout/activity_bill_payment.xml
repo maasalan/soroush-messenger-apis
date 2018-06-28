@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/root_layout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent"
+    <FrameLayout app:id="@id/image_bg" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <RelativeLayout app:id="@id/bill_payment_main_layout" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@id/bill_payment_toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:collapseIcon="@drawable/ic_back_dark" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance">
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/bill_payment_header_linear_layout" app:clickable="true" app:layout_width="wrap_content" app:layout_height="match_parent" style="@style/myBorderlessButton">
+                <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/logo_imageView" app:layout_width="UNKNOWN_DATA_0x7f0700f6" app:layout_height="UNKNOWN_DATA_0x7f0700f6" app:layout_marginRight="@dimen/material_margin_low" app:src="@drawable/ic_service_bill" app:background_color="0x106000b" app:text_color="0x106000b" />
+                <TextView app:textAppearance="@style/expandedTitleTextAppearance" app:textStyle="bold" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/title_toolbar_textView" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginRight="@dimen/material_margin_medium" app:maxLines="1" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <View app:id="@id/shadow_line_top" app:background="@drawable/shadow_line_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layout_below="@id/bill_payment_toolbar" />
+        <FrameLayout app:id="@id/bill_payment_frame_layout" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/bill_payment_toolbar" />
+    </RelativeLayout> />

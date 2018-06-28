@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatCheckBox app:textColor="@color/textColorPrimary" app:id="@id/checkBox1" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" app:layout_alignParentLeft="true" app:layout_centerVertical="true" style="@style/colorControlNormalTheme" />
+        <android.support.v7.widget.AppCompatEditText app:textColor="@color/textColorPrimary" app:id="@id/editText1" app:paddingLeft="@dimen/material_margin_medium" app:paddingTop="@dimen/material_margin_medium" app:paddingRight="@dimen/material_margin_medium" app:layout_width="wrap_content" app:layout_height="wrap_content" app:hint="@string/question_item" app:layout_toLeftOf="@id/imageButton1" app:layout_toRightOf="@id/checkBox1" app:layout_centerVertical="true" app:imeOptions="flagNoExtractUi" style="?unknown_attr_ref: 1010089" />
+        <android.support.v7.widget.AppCompatImageButton app:id="@id/imageButton1" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:layout_alignParentRight="true" app:srcCompat="@drawable/ic_remove_circle_outline_red_24dp" />
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/colorErrorText" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/error_textView" android:paddingLeft="38dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6dp" android:text="@string/option_cant_be_empty" />
+</LinearLayout>

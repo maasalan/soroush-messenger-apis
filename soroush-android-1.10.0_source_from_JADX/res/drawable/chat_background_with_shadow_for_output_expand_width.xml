@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shadow_shape" android:left="0dp" android:top="1dp" android:right="0dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/output_bubble_color" />
+        </shape>
+    </item>
+    <item android:left="0dp" android:top="2dp" android:right="0dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/output_bubble_color" />
+        </shape>
+    </item>
+</layer-list>

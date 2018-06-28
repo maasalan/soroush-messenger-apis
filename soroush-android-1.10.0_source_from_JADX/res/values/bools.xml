@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="allow_ringing_while_early_media">true</bool>
+    <bool name="auto_answer_calls">false</bool>
+    <bool name="disable_all_security_features_for_markets">false</bool>
+    <bool name="disable_every_log">false</bool>
+    <bool name="enable_push_id">true</bool>
+    <bool name="forbid_self_call">false</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="spb_default_mirror_mode">false</bool>
+    <bool name="spb_default_progressiveStart_activated">false</bool>
+    <bool name="spb_default_reversed">false</bool>
+    <bool name="use_linphonecore_ringing">false</bool>
+    <bool name="xlarge">false</bool>
+    <bool name="xlarge">true</bool>
+    <bool name="xlarge">false</bool>
+</resources>

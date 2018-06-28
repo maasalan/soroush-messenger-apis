@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/shape_black_border_like_visit" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_low" android:paddingRight="@dimen/material_margin_medium" android:paddingBottom="@dimen/material_margin_low" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@id/edit_imageView" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0700cf" android:layout_height="UNKNOWN_DATA_0x7f0700cf" android:layout_marginLeft="@dimen/material_margin_low" android:layout_marginRight="@dimen/material_margin_medium" android:src="@drawable/ic_edit" />
+    <TextView android:textSize="@dimen/chat_time_text_size" android:textColor="@color/white" android:id="@id/time_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text" android:layout_toRightOf="@id/edit_imageView" />
+</LinearLayout>

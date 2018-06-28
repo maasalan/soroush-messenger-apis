@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/toolbar_pane" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:collapseIcon="@drawable/ic_back_dark" app:contentInsetStartWithNavigation="0dp" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance">
+        <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/inside_toolbar_linearLayout" app:clickable="true" app:layout_width="wrap_content" app:layout_height="match_parent" style="@style/myBorderlessButton">
+            <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/logo_imageView" app:layout_width="UNKNOWN_DATA_0x7f0700f6" app:layout_height="UNKNOWN_DATA_0x7f0700f6" app:layout_marginRight="@dimen/material_margin_low" app:background_color="0x106000b" app:text_color="0x106000b" />
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="8dp" app:layout_marginRight="8dp">
+                <TextView app:textColor="@color/white" app:id="@id/contact_title" app:paddingRight="@dimen/profile_contact_margin" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" style="@style/expandedShadowedTitleTextAppearance" />
+                <TextView app:textColor="@color/white" app:id="@id/contact_subtitle" app:paddingRight="?attr/actionBarSize" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" style="@style/expandedShadowedSubtitleTextAppearance" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <View app:id="@id/shadow_line_top" app:background="@drawable/shadow_line_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layout_below="@id/toolbar" />
+    <FrameLayout app:id="@id/container_frame" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/shadow_line_top" />
+</RelativeLayout>

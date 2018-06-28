@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_invite_24dp_gray" app:id="@id/action_new_contact" app:title="@string/action_new_contact" />
+    <item app:icon="@drawable/ic_sync_contact" app:id="@id/action_sync_contact" app:title="@string/action_sync" />
+    <item app:icon="@drawable/ic_invitation" app:id="@id/action_invite" app:title="@string/invite_friends" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

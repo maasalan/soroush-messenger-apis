@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_new_conversation" android:id="@id/nav_conversation" android:title="@string/start_a_conversation" />
+        <item android:icon="@drawable/ic_new_group_chat" android:id="@id/nav_group_chat" android:visible="true" android:title="@string/new_group_chat" />
+        <item android:icon="@drawable/ic_new_channel" android:id="@id/nav_channel" android:visible="true" android:title="@string/new_channel" />
+    </group>
+    <group android:id="@id/menu2" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_nav_services" android:id="@id/nav_service" android:title="@string/nav_services" />
+        <item android:icon="@drawable/ic_person_pin_circle_black_24dp" android:id="@id/nav_find_friends" android:visible="false" android:title="@string/find_friends" />
+        <item android:icon="@drawable/ic_shopping" android:id="@id/nav_menu_sticker_market" android:visible="true" android:title="@string/sticker_market" />
+    </group>
+    <group android:id="@id/menu3" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_action_communication_call" android:id="@id/nav_menu_calls" android:title="@c2502c/call" />
+        <item android:icon="@drawable/ic_settings" android:id="@id/nav_menu_settings" android:title="@c2502c/settings" />
+        <item android:icon="@drawable/ic_about" android:id="@id/nav_menu_about" android:title="@c2502c/about" />
+    </group>
+</menu>

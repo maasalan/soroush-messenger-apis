@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <mobi.mmdt.ott.view.vas.owghat.component.NumberPicker app:id="@id/numberPicker1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/material_margin_wide" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" app:np_order="1" app:np_typeface="fonts/NotoNaskhArabicUI-Regular.ttf" />
+</RelativeLayout>

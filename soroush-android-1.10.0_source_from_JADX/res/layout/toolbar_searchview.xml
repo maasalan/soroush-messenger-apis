@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:background="0x106000d" card_view:layout_width="match_parent" card_view:layout_height="wrap_content"
+    <RelativeLayout card_view:id="@id/view_search" card_view:background="#50000000" card_view:visibility="invisible" card_view:clickable="true" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" />
+    <android.support.v7.widget.CardView card_view:id="@id/card_search" card_view:visibility="invisible" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_margin="4dp" card_view:cardBackgroundColor="0x106000b" card_view:cardCornerRadius="2dp">
+        <RelativeLayout card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+            <LinearLayout card_view:id="@id/linearLayout_search" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x3001">
+                <ImageView card_view:id="@id/image_search_back" card_view:background="?attr/selectableItemBackgroundBorderless" card_view:padding="12dp" card_view:clickable="true" card_view:layout_width="UNKNOWN_DATA_0x3001" card_view:layout_height="UNKNOWN_DATA_0x3001" card_view:src="0x108004f" card_view:contentDescription="Search" />
+                <EditText card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:id="@id/edit_text_search" card_view:background="#fff" card_view:paddingLeft="12dp" card_view:paddingRight="8dp" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:hint="Search" card_view:maxLines="1" card_view:layout_weight="1.0" card_view:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberDecimal|phone" card_view:imeOptions="flagNoFullscreen" />
+                <ImageView card_view:id="@id/clearSearch" card_view:background="?attr/selectableItemBackgroundBorderless" card_view:padding="12dp" card_view:visibility="invisible" card_view:clickable="true" card_view:layout_width="UNKNOWN_DATA_0x3001" card_view:layout_height="UNKNOWN_DATA_0x3001" card_view:src="0x1080038" card_view:contentDescription="Cancel" />
+            </LinearLayout>
+            <View card_view:id="@id/line_divider" card_view:background="#eee" card_view:visibility="gone" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x40000031" card_view:layout_below="@id/linearLayout_search" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

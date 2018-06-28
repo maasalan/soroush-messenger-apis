@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_frameLayout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_frameLayout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/MyItemForegroundStyle">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_textView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/app_name" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/select_lines_frameLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/view_top_selected" android:background="@color/colorSecondary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/view_bottom_selected" android:background="@color/colorSecondary" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/view_left_selected" android:background="@color/colorSecondary" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+            <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/view_right_selected" android:background="@color/colorSecondary" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

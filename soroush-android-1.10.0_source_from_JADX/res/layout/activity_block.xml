@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/root_relativeLayout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:contentInsetStartWithNavigation="0dp" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance" />
+    <android.support.v7.widget.RecyclerView app:theme="@style/MyEdgeOverlayTheme" app:id="@id/recycler_view" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar" style="@style/contactsListRecyclerViewWithFastScrollStyle" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/empty_state_linearLayout" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true">
+        <FrameLayout app:id="@id/empty_state_frameLayout_image" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <ImageView app:id="@id/empty_state_background" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/material_margin_wide" app:src="@drawable/ic_empty_state_background" />
+            <ImageView app:id="@id/empty_state_icon" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/material_margin_wide" app:src="@drawable/ic_block_icon" />
+        </FrameLayout>
+        <TextView app:textColor="@color/textColorPrimary" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/empty_state_textView" app:paddingLeft="@dimen/material_margin_wide" app:paddingRight="@dimen/material_margin_wide" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/material_margin_wide" app:text="@string/empty_state_block_contacts_list" />
+    </LinearLayout>
+    <View app:id="@id/shadow_line_top" app:background="@drawable/shadow_line_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layout_below="@id/toolbar" />
+</RelativeLayout>

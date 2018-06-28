@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:focusable="true" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <View app:id="@id/divider_line" app:background="@color/dividerColor" app:visibility="visible" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_marginTop="8dp" />
+    <RelativeLayout app:id="@id/relative_layout_content" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" style="@style/MyItemBackgroundStyle">
+        <ImageView app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/imageView" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:layout_marginLeft="16dp" app:drawablePadding="12dp" app:layout_centerVertical="true" app:layout_marginStart="16dp" app:srcCompat="@drawable/ic_change_language_new_design" />
+        <TextView app:textSize="15sp" app:textColor="@color/textColorPrimary" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/textView1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="32dp" app:text="text" app:maxLines="1" app:layout_toRightOf="@+id/imageView" app:layout_centerVertical="true" app:layout_marginStart="32dp" />
+        <android.support.v7.widget.SwitchCompat app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/switch1" app:paddingRight="@dimen/material_margin_wide" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_location_round" android:id="@id/action_location" android:title="@string/action_location" />
+    <item android:icon="@drawable/ic_music_bottom_sheet" android:id="@id/action_music" android:visible="false" android:title="@string/action_music" />
+    <item android:icon="@drawable/ic_file_round" android:id="@id/action_file" android:title="@string/action_file" />
+    <item android:icon="@drawable/ic_video_round" android:id="@id/action_video" android:title="@string/action_video" />
+    <item android:icon="@drawable/ic_camera_round" android:id="@id/action_photo" android:title="@string/action_photo" />
+    <item android:icon="@drawable/ic_gallery_round" android:id="@id/action_gallery" android:title="@string/action_gallery" />
+</menu>

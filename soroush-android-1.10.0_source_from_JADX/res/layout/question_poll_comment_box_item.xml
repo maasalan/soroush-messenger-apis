@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:enabled="false" android:textColor="@color/textColorPrimary" android:id="@id/question_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/comment" android:imeOptions="flagNoExtractUi" style="?unknown_attr_ref: 1010089" />
+</RelativeLayout>

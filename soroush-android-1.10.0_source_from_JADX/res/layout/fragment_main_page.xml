@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/main_content" app:layout_width="match_parent" app:layout_height="match_parent">
+    <include layout="@layout/main_fragment_app_bar" />
+    <mobi.mmdt.ott.view.tools.NonSwipeableViewPager.NonSwipeableViewPager app:id="@c0243f/container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <android.support.design.widget.FloatingActionButton app:id="@id/fab" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/fab_margin" app:layout_marginBottom="@dimen/fab_margin" app:src="@drawable/ic_content_add" app:elevation="2dp" app:fabSize="0" app:layout_anchor="@c0243f/container" app:layout_anchorGravity="800055" app:rippleColor="@color/colorSecondaryLight" />
+</android.support.design.widget.CoordinatorLayout>

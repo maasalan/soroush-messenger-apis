@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:layout_width="match_parent" wheel:layout_height="match_parent">
+    <mobi.mmdt.ott.view.components.ProgressWheel wheel:id="@id/progress_wheel" wheel:layout_width="UNKNOWN_DATA_0x7f070068" wheel:layout_height="UNKNOWN_DATA_0x7f070068" wheel:layout_centerInParent="true" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_linearProgress="true" wheel:matProg_progressIndeterminate="true" />
+    <android.support.v7.widget.RecyclerView wheel:theme="@style/MyEdgeOverlayTheme" wheel:id="@id/recycler_view" wheel:layout_width="match_parent" wheel:layout_height="match_parent" style="@style/myRecyclerViewStyle" />
+    <LinearLayout wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:orientation="vertical" wheel:id="@id/empty_state_linearLayout" wheel:visibility="gone" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:layout_centerInParent="true">
+        <FrameLayout wheel:id="@id/empty_state_frameLayout_image" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content">
+            <ImageView wheel:id="@id/empty_state_background" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:layout_margin="@dimen/material_margin_wide" wheel:src="@drawable/ic_empty_state_background" />
+            <ImageView wheel:id="@id/empty_state_icon" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:layout_margin="@dimen/material_margin_wide" wheel:src="@drawable/ic_sticker_market_icon" />
+        </FrameLayout>
+        <TextView wheel:textColor="@color/textColorPrimary" wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/empty_state_textView" wheel:paddingLeft="@dimen/material_margin_wide" wheel:paddingRight="@dimen/material_margin_wide" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:layout_marginTop="@dimen/material_margin_wide" wheel:text="@string/empty_state_stickers_list" />
+    </LinearLayout>
+</RelativeLayout>

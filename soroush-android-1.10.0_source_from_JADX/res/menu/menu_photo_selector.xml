@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_checkable_items" app:id="@id/action_checkable_items" app:orderInCategory="1" app:title="@string/action_checkable_items" app:showAsAction="ifRoom" />
+</menu>

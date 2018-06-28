@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root_relative_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/shadow_line_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:layout_alignParentTop="true" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/indicator_frameLayout" />
+    <RelativeLayout android:id="@id/indicator_frameLayout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070100" android:layout_alignParentTop="true">
+        <mobi.mmdt.ott.view.conversation.emojisticker.viewpagerindicator.IconPageIndicator android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/backspace_imageButton" android:layout_alignParentLeft="true" />
+        <View android:background="@drawable/shadow_line_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:layout_alignParentTop="true" />
+        <View android:background="@drawable/shadow_line_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:layout_alignParentBottom="true" />
+        <ImageButton android:id="@id/backspace_imageButton" android:padding="8dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="match_parent" android:src="@drawable/ic_emoji_backspace" android:scaleType="centerInside" android:layout_alignParentRight="true" style="@style/MyItemBackgroundStyle" />
+    </RelativeLayout>
+</RelativeLayout>

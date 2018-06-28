@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/material_margin_medium">
+    <TextView android:textSize="20sp" android:id="@id/tv_select_operator_dialog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_low" android:text="@string/enter_your_desired_charge_amount" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_money_currency" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/rial" android:layout_weight="1.0" />
+            <EditText android:id="@id/et_charge_custom_amount" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="3.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

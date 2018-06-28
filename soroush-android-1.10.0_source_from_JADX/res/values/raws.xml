@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="incoming_chat">res/raw/incoming_chat.wav</raw>
+    <raw name="linphonerc_default">res/raw/linphonerc_default</raw>
+    <raw name="linphonerc_factory">res/raw/linphonerc_factory</raw>
+    <raw name="lpconfig">res/raw/lpconfig.xsd</raw>
+    <raw name="oldphone_mono">res/raw/oldphone_mono.wav</raw>
+    <raw name="provinces">res/raw/provinces.json</raw>
+    <raw name="received">res/raw/received.mp3</raw>
+    <raw name="ringback">res/raw/ringback.wav</raw>
+    <raw name="rootca">res/raw/rootca.pem</raw>
+    <raw name="ssl_keystore_prod">res/raw/ssl_keystore_prod.bks</raw>
+    <raw name="toy_mono">res/raw/toy_mono.wav</raw>
+    <raw name="waiting">res/raw/waiting.mp3</raw>
+    <raw name="wslb2">res/raw/wslb2.pem</raw>
+</resources>

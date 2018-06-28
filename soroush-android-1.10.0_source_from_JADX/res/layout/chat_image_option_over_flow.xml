@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/linear_layout_action_image_option" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageButton android:id="@id/action_image_option" android:background="@drawable/circle_background_option_button" android:padding="4dp" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:src="@drawable/ic_full_screen" android:scaleType="fitCenter" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/root_view" app:layout_width="match_parent" app:layout_height="match_parent">
+    <pl.droidsonroids.gif.GifImageView app:id="@id/content_gifView" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_centerInParent="true" />
+    <ImageButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/action_imageView" app:background="@drawable/chat_image_action_selector" app:layout_width="UNKNOWN_DATA_0x3801" app:layout_height="UNKNOWN_DATA_0x3801" app:scaleType="fitCenter" app:layout_centerInParent="true" app:srcCompat="@drawable/ic_gif_white_32dp" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_communication_call" app:id="@id/action_call" app:orderInCategory="1" app:title="@string/action_call" app:actionViewClass="android.support.v7.widget.AppCompatImageView" app:showAsAction="ifRoom" />
+    <item app:id="@id/action_search_chat" app:orderInCategory="100" app:title="@string/action_search_chat" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="collapseActionView" />
+    <item app:id="@id/action_mute_notification" app:orderInCategory="100" app:title="@string/action_mute_notification" app:checkable="true" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_delete_chat" app:orderInCategory="100" app:title="@string/action_delete_chat" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

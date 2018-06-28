@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:orientation="vertical" wheel:background="@color/white" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+    <FrameLayout wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:layout_margin="4dp">
+        <com.devbrackets.android.exomedia.ui.widget.EMVideoView wheel:id="@id/video_view" wheel:layout_width="wrap_content" wheel:layout_height="UNKNOWN_DATA_0xc801" />
+        <mobi.mmdt.ott.view.components.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/progress_wheel" wheel:layout_width="UNKNOWN_DATA_0x5001" wheel:layout_height="UNKNOWN_DATA_0x5001" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_progressIndeterminate="true" />
+    </FrameLayout>
+    <View wheel:background="@color/dividerColor" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x101" />
+    <android.support.v7.widget.AppCompatSeekBar wheel:id="@id/exo_seek_bar" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" />
+    <FrameLayout wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x2801">
+        <android.support.v7.widget.AppCompatButton wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/close_button" wheel:paddingLeft="@dimen/material_margin_medium" wheel:paddingRight="@dimen/material_margin_medium" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:text="@string/close_button_text" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+        <LinearLayout wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:orientation="horizontal" wheel:id="@id/player_buttons_pane" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content">
+            <RelativeLayout wheel:id="@id/play_buttons_pane" wheel:layout_width="UNKNOWN_DATA_0x1e01" wheel:layout_height="UNKNOWN_DATA_0x1e01" wheel:layout_marginLeft="2dp" wheel:layout_marginRight="2dp">
+                <android.support.v7.widget.AppCompatImageView wheel:id="@id/exo_play" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:src="@drawable/ic_exo_player_play_button" />
+                <android.support.v7.widget.AppCompatImageView wheel:id="@id/exo_pause" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:src="@drawable/ic_exo_player_pause_button" />
+            </RelativeLayout>
+            <RelativeLayout wheel:id="@id/full_screen_buttons_pane" wheel:layout_width="UNKNOWN_DATA_0x1e01" wheel:layout_height="UNKNOWN_DATA_0x1e01" wheel:layout_marginLeft="2dp" wheel:layout_marginRight="2dp">
+                <android.support.v7.widget.AppCompatImageView wheel:id="@id/exo_full" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:src="@drawable/ic_exo_player_fullscreen" />
+            </RelativeLayout>
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/open_with_button" wheel:paddingLeft="@dimen/material_margin_medium" wheel:paddingRight="@dimen/material_margin_medium" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:text="@string/open_with_button_text" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+    </FrameLayout>
+</LinearLayout>

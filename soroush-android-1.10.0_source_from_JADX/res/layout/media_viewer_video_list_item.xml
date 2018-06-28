@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ImageView app:id="@id/content_imageView" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <ImageButton app:id="@id/action_imageView" app:background="@drawable/media_viewer_video_action_selector" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/material_margin_low" app:layout_marginRight="@dimen/material_margin_low" app:scaleType="fitCenter" app:layout_centerInParent="true" app:srcCompat="@drawable/ic_play_arrow_white_24dp" />
+</RelativeLayout>

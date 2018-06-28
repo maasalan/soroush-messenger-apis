@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root_relativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@id/videoLayout" android:background="@color/colorAccent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout wheel:orientation="vertical" wheel:id="@id/nonVideoLayout" wheel:background="@color/black" wheel:visibility="visible" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+        <FrameLayout wheel:layout_width="match_parent" wheel:layout_height="match_parent" wheel:layout_margin="4dp">
+            <mobi.mmdt.ott.view.streamplayer.VideoEnabledWebView wheel:id="@id/webView" wheel:layout_width="match_parent" wheel:layout_height="match_parent" />
+            <mobi.mmdt.ott.view.components.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/progress_wheel" wheel:layout_width="UNKNOWN_DATA_0x5001" wheel:layout_height="UNKNOWN_DATA_0x5001" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_progressIndeterminate="true" />
+        </FrameLayout>
+        <FrameLayout wheel:background="@color/black" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x2801">
+            <android.support.v7.widget.AppCompatButton wheel:textColor="@color/video_player_accent_color" wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/close_button" wheel:paddingLeft="@dimen/material_margin_medium" wheel:paddingRight="@dimen/material_margin_medium" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:text="@string/close_button_text" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+            <android.support.v7.widget.AppCompatButton wheel:textColor="@color/video_player_accent_color" wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/open_with_button" wheel:paddingLeft="@dimen/material_margin_medium" wheel:paddingRight="@dimen/material_margin_medium" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:text="@string/open_with_button_text" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

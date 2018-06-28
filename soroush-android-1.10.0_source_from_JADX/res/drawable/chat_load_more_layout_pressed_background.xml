@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/chat_load_more_pressed_color" />
+    <corners android:topLeftRadius="@dimen/material_margin_low" android:topRightRadius="@dimen/material_margin_low" android:bottomLeftRadius="@dimen/material_margin_low" android:bottomRightRadius="@dimen/material_margin_low" />
+</shape>

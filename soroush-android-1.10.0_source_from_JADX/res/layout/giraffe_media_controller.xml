@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <mobi.mmdt.ott.view.tools.ProportionalImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/app_video_cover" app:layout_width="match_parent" app:layout_height="match_parent" app:adjustViewBounds="true" />
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="0px">
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/app_video_replay" app:background="#000000" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+            <ImageButton app:id="@id/app_video_replay_icon" app:background="@drawable/chat_image_action_selector" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x3801" app:layout_height="UNKNOWN_DATA_0x3801" app:src="@drawable/ic_pause_new" app:scaleType="fitCenter" />
+        </LinearLayout>
+        <FrameLayout app:id="@id/app_video_center_box" app:background="@drawable/app_video_center_bg" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true">
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/app_video_volume_box" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001">
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/app_video_volume_icon" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_volume_up_white_36dp" />
+                <TextView app:textSize="18dp" app:textColor="0x106000b" app:id="@id/app_video_volume" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="50%" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/app_video_brightness_box" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001">
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/app_video_brightness_icon" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_brightness_6_white_36dp" />
+                <TextView app:textSize="16dp" app:textColor="@color/white" app:id="@id/app_video_brightness" app:paddingTop="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="50%" app:layout_below="@id/operation_bg" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/app_video_fastForward_box" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="8dp">
+                <TextView app:textSize="16dp" app:textColor="@color/white" app:id="@id/app_video_fastForward" app:paddingTop="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="50%" app:layout_below="@id/operation_bg" />
+                <LinearLayout app:orientation="horizontal" app:paddingTop="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <TextView app:textSize="16dp" app:textColor="@color/white" app:id="@id/app_video_fastForward_target" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="50%" />
+                    <TextView app:textSize="16dp" app:textColor="@color/gray_pin_color" app:id="@id/app_video_fastForward_all" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="50%" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/app_video_status" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+            <TextView app:textSize="14dp" app:textColor="0x106000b" app:id="@id/app_video_status_text" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="small_problem" />
+        </LinearLayout>
+        <ProgressBar app:id="@id/app_video_loading" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x3201" app:layout_height="UNKNOWN_DATA_0x3201" app:indeterminateOnly="true" app:indeterminateBehavior="repeat" app:layout_centerInParent="true" />
+        <RelativeLayout app:id="@id/app_video_bottom_box" app:padding="8dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+            <ImageView app:id="@id/app_video_play" app:padding="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerVertical="true" app:srcCompat="@drawable/ic_play_arrow_white_24dp" />
+            <TextView app:textSize="12dp" app:textColor="0x106000b" app:id="@id/app_video_currentTime" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:text="" app:layout_toRightOf="@id/app_video_play" app:layout_centerVertical="true" />
+            <SeekBar app:id="@id/app_video_seekBar" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="3dp" app:layout_marginRight="3dp" app:layout_toLeftOf="@id/app_video_endTime" app:layout_toRightOf="@id/app_video_currentTime" app:layout_centerVertical="true" />
+            <TextView app:textSize="12dp" app:textColor="0x106000b" app:id="@id/app_video_endTime" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" app:layout_toLeftOf="@id/app_video_clarity" app:layout_centerVertical="true" />
+            <ImageView app:id="@id/app_video_clarity" app:paddingLeft="8dp" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_setting_white_24dp" app:layout_toLeftOf="@id/app_video_fullscreen" app:layout_centerVertical="true" />
+            <ImageView app:id="@id/app_video_fullscreen" app:paddingLeft="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_fullscreen_white_24dp" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView app:textColor="#fff" app:id="@id/app_video_subtitle" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_above="@id/app_video_bottom_box" />
+    </RelativeLayout>
+    <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/app_video_top_box" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <ImageView app:id="@id/app_video_finish" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_chevron_left_white_36dp" app:layout_centerVertical="true" />
+        <TextView app:textSize="12dp" app:textColor="0x106000b" app:ellipsize="marquee" app:id="@id/app_video_title" app:padding="8dp" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:singleLine="true" app:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

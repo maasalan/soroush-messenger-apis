@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res-auto" bind:id="@id/image_view" bind:tag="layout/image_suggest_channel_layout_item_list_0" bind:padding="4dp" bind:layout_width="match_parent" bind:layout_height="match_parent" bind:scaleType="centerCrop" bind:contentDescription="image_view" style="@style/MyItemForegroundStyle" />

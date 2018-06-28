@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingTop="6dp" android:paddingRight="@dimen/material_margin_medium" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:id="@id/root_like_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/heart_imageView" android:layout_width="UNKNOWN_DATA_0x7f0700cc" android:layout_height="UNKNOWN_DATA_0x7f0700cc" android:layout_marginLeft="@dimen/material_margin_medium" android:src="@drawable/ic_like_stroke_bold" />
+        <TextView android:textSize="16sp" android:textColor="@color/input_chat_text_color" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/like_count_textView" android:paddingLeft="@dimen/material_margin_low" android:paddingRight="@dimen/material_margin_low" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:layout_marginRight="@dimen/material_margin_huge" android:text="@string/zero" />
+    </LinearLayout>
+    <ImageView android:id="@id/channel_bottom_reply_imageView" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0700cc" android:layout_height="UNKNOWN_DATA_0x7f0700cc" android:layout_marginLeft="@dimen/material_margin_medium" android:layout_marginRight="@dimen/material_margin_huge" android:src="@drawable/ic_reply_bold" android:contentDescription="reply_imageView" />
+    <include android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:layout_marginLeft="@dimen/material_margin_medium" layout="@layout/include_floating_forward_icon" />
+</LinearLayout>

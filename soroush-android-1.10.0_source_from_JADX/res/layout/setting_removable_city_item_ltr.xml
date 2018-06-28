@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+    <View android:id="@id/default_city_divider" android:background="@color/colorAccent" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="match_parent" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="18sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/weather_setting_item_name" android:paddingLeft="12dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Iran - Tehran" android:layout_toRightOf="@id/default_city_divider" />
+    <ImageView android:id="@id/weather_setting_city_item_icon" android:paddingRight="12dp" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="match_parent" android:src="@drawable/ic_sticker_details_cancel" android:layout_alignParentRight="true" />
+</RelativeLayout>

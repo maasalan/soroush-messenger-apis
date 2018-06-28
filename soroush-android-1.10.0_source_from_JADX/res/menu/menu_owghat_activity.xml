@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_settings_white" app:id="@id/action_owghat_settings" app:orderInCategory="1" app:title="@string/action_religious_prayers_settings" app:showAsAction="ifRoom" />
+</menu>

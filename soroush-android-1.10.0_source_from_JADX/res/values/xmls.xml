@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="authenticator">res/xml/authenticator.xml</xml>
+    <xml name="contacts">res/xml/contacts.xml</xml>
+    <xml name="global_tracker">res/xml/global_tracker.xml</xml>
+    <xml name="syncadapter">res/xml/syncadapter.xml</xml>
+</resources>

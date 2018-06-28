@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_invite_24dp_gray" app:id="@id/action_add_contact" app:orderInCategory="1" app:title="@string/action_block_contact" app:showAsAction="always" />
+</menu>

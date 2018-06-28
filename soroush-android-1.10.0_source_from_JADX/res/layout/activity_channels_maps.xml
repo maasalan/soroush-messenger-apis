@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/main_content" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:orientation="vertical" app:id="@id/root_relativeLayout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="@color/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_alignParentTop="true" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance" />
+        <fragment app:name="com.google.android.gms.maps.SupportMapFragment" app:id="@id/map" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar" />
+    </RelativeLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/bottom_sheet" app:clipToPadding="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+        <include layout="@layout/item_info_window_channels" />
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

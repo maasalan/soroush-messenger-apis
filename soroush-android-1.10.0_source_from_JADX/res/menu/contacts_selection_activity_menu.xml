@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_sync_contact" app:id="@id/action_sync_contact" app:title="@string/action_sync" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_invite_24dp_gray" app:id="@id/action_new_contact" app:title="@string/action_new_contact" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/actionbar_search_drawable" app:id="@id/action_search" app:title="@string/action_search" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="ifRoom" />
+</menu>

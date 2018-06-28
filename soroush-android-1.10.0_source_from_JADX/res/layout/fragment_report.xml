@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/description_textInputLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24dp">
+        <EditText android:textColor="@color/transparent" android:id="@id/description_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/description" android:imeOptions="flagNoExtractUi" />
+    </android.support.design.widget.TextInputLayout>
+    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/send" style="@style/MyColoredButtonTheme" />
+</LinearLayout>

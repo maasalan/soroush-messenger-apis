@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_new_conversation" android:id="@id/action_new_conversation" android:title="@string/start_a_conversation" />
+    <item android:icon="@drawable/ic_new_group_chat" android:id="@id/action_new_group_chat" android:title="@string/new_group_chat" />
+    <item android:icon="@drawable/ic_new_channel" android:id="@id/action_new_channel" android:visible="true" android:title="@string/new_channel" />
+    <item android:icon="@drawable/ic_new_bulk_message" android:id="@id/action_new_bulk_message" android:title="@string/new_bulk_message" />
+</menu>

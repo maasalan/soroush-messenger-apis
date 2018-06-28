@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/root_layout" app:paddingLeft="@dimen/material_margin_wide" app:paddingTop="@dimen/material_margin_wide" app:paddingRight="@dimen/material_margin_wide" app:layout_width="match_parent" app:layout_height="match_parent">
+    <uz.shift.colorpicker.LineColorPicker app:id="@id/lineColorPicker" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" app:layout_margin="@dimen/material_margin_medium" app:orientation="horizontal" />
+</RelativeLayout>

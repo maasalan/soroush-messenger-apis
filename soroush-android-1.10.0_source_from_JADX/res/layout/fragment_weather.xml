@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:orientation="vertical" app:id="@id/weather_main_layout" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar app:id="@id/weather_toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearance" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearance" />
+            <include layout="@layout/fragment_weather_info_panel" />
+        </LinearLayout>
+        <include layout="@layout/fragment_weather_forecast_panel" />
+        <include app:visibility="gone" layout="@layout/fragment_weather_chart_panel" />
+    </LinearLayout>
+</ScrollView>

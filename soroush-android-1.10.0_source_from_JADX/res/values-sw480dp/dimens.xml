@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_nav_item_badge_size">21.0dip</dimen>
+    <dimen name="nav_item_badge_size">19.0dip</dimen>
+    <dimen name="nav_item_badge_text">10.0sp</dimen>
+</resources>

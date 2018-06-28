@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_crop_image" app:id="@id/action_crop" app:visible="false" app:orderInCategory="1" app:title="@string/action_crop" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/ic_action_navigation_check_white" app:id="@id/action_done" app:orderInCategory="1" app:title="@string/action_done" app:showAsAction="ifRoom" />
+</menu>

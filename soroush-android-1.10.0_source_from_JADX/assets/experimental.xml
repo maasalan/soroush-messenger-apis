@@ -1,0 +1,10 @@
+<smack>
+    <startupClasses>
+        <className>org.jivesoftware.smackx.hoxt.HOXTManager</className>
+        <className>org.jivesoftware.smackx.iot.data.IoTDataManager</className>
+        <className>org.jivesoftware.smackx.iot.discovery.IoTDiscoveryManager</className>
+        <className>org.jivesoftware.smackx.iot.provisioning.IoTProvisioningManager</className>
+        <className>org.jivesoftware.smackx.httpfileupload.HttpFileUploadManager</className>
+    </startupClasses>
+</smack>
+

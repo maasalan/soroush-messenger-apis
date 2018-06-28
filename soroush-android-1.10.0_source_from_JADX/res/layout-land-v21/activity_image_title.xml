@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout app:id="@id/main_content" app:background="@color/window_background_dark" app:fitsSystemWindows="false" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/appbar" app:fitsSystemWindows="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:stateListAnimator="0x0">
+            <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:contentScrim="?attr/colorPrimary" app:layout_scrollFlags="13" app:toolbarId="@id/toolbar">
+                <ImageView app:id="@id/backdrop" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+                <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040006" app:layout_collapseMode="1" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/expandedShadowedSubtitleTextAppearanceImageTitle" app:titleTextAppearance="@style/expandedShadowedTitleTextAppearanceImageTitle" />
+                <mobi.mmdt.ott.view.components.avatartoolbar.CollapsingAvatarToolbar app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f040006">
+                    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/cat_avatar" app:layout_width="UNKNOWN_DATA_0x7f0700f6" app:layout_height="UNKNOWN_DATA_0x7f0700f6" app:layout_centerVertical="true" />
+                    <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="8dp" app:layout_marginRight="8dp">
+                        <TextView app:id="@id/cat_title" app:paddingRight="?attr/actionBarSize" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" style="@style/expandedShadowedTitleTextAppearanceImageTitle" />
+                        <TextView app:id="@id/cat_subtitle" app:paddingRight="?attr/actionBarSize" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" style="@style/expandedShadowedSubtitleTextAppearanceImageTitle" />
+                    </LinearLayout>
+                </mobi.mmdt.ott.view.components.avatartoolbar.CollapsingAvatarToolbar>
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+        <mobi.mmdt.ott.view.components.MyNestedScrollView app:id="@id/nestedScrollView" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <ViewStub app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/container_viewStub" app:layout_width="match_parent" app:layout_height="match_parent" />
+        </mobi.mmdt.ott.view.components.MyNestedScrollView>
+        <android.support.design.widget.FloatingActionButton app:id="@id/fab1" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/fab_margin" app:src="@drawable/ic_image_photo_camera" app:layout_anchor="@id/appbar" app:layout_anchorGravity="800055" app:rippleColor="@color/colorSecondaryLight" />
+        <android.support.design.widget.FloatingActionButton app:id="@id/fab2" app:visibility="gone" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="88dp" app:layout_anchor="@id/appbar" app:layout_anchorGravity="800055" app:rippleColor="@color/colorSecondaryLight" app:srcCompat="@drawable/ic_share_white_24" />
+    </android.support.design.widget.CoordinatorLayout>
+</merge>

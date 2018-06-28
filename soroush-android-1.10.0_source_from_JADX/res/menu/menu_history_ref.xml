@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_clear_history" app:id="@id/menu_history_icon" app:orderInCategory="1" app:title="@string/charge_history" app:showAsAction="ifRoom" />
+</menu>

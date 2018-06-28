@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_pin_gray" android:id="@id/action_pin_channel" android:title="@string/action_pin_bot" />
+    <item android:icon="@drawable/ic_action_clear_history" android:id="@id/action_clear_history" android:title="@string/action_clear_history" />
+</menu>

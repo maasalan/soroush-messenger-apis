@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shadow_shape" android:drawable="@drawable/new_chat_background_for_output" android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="1dp" />
+    <item android:id="@id/shadow_shape2" android:drawable="@drawable/new_chat_background_for_output" android:left="2dp" android:top="2dp" android:right="0dp" android:bottom="2dp" />
+    <item android:drawable="@drawable/new_chat_background_for_output" android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="2.5dp" />
+</layer-list>

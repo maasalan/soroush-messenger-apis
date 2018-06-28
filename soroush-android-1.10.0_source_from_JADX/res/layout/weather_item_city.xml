@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/city_title_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/chat_text_size" android:id="@id/city_title" android:paddingLeft="8dp" android:paddingTop="@c1577a/default_padding_side" android:paddingRight="8dp" android:paddingBottom="@c1577a/default_padding_side" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/test" />
+</RelativeLayout>

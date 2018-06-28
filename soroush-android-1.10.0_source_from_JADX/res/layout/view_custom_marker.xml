@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x3201">
+    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/profile_image" app:padding="1dp" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:text_color="0x106000b" />
+    <ImageView app:id="@id/location_marker" app:background="@drawable/location_marker_online" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x3201" />
+</FrameLayout>

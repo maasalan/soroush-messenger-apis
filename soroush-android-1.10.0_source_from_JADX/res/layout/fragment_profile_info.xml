@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/root_layout" android:paddingLeft="@dimen/material_margin_wide" android:paddingTop="@dimen/material_margin_wide" android:paddingRight="@dimen/material_margin_wide" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:id="@id/profileName_textInputLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide">
+                <EditText android:textColor="@color/edit_text_text_color_selector" android:id="@id/profileName_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/profile_name" android:maxLines="1" android:imeOptions="flagNoExtractUi" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:id="@id/userId_textInputLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide">
+                <EditText android:textColor="@color/edit_text_text_color_selector" android:id="@id/userId_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:paddingBottom="@dimen/material_margin_wide" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/user_id" android:maxLines="1" android:imeOptions="flagNoExtractUi" />
+                <TextView android:textSize="15sp" android:textColor="@color/colorErrorText" android:id="@id/error_textView2" android:paddingLeft="@dimen/material_margin_low" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sorry_this_user_id_is_invalid" android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:id="@id/profileStatus_textInputLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide">
+                <EditText android:textColor="@color/edit_text_text_color_selector" android:ellipsize="end" android:id="@id/profileStatus_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/profile_status" android:imeOptions="flagNoExtractUi" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <android.support.design.widget.TextInputLayout android:id="@id/phone_textInputLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide">
+            <EditText android:enabled="false" android:textColor="@color/edit_text_text_color_selector" android:id="@id/phone_editText" android:paddingLeft="@dimen/material_margin_medium" android:paddingTop="@dimen/material_margin_medium" android:paddingRight="@dimen/material_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:hint="@c2502c/phone_number" android:maxLines="1" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" android:imeOptions="flagNoExtractUi" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</RelativeLayout>

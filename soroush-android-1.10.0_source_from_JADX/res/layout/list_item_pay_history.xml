@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/root" app:clickable="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0700c6" style="@style/MyItemBackgroundStyle"
+    <FrameLayout app:id="@id/root_frameLayout" app:layout_width="wrap_content" app:layout_height="match_parent">
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/imageView1" app:layout_width="UNKNOWN_DATA_0x7f070068" app:layout_height="UNKNOWN_DATA_0x7f070068" app:layout_marginLeft="@dimen/material_margin_medium" app:background_color="0x106000b" app:text_color="0x106000b" />
+        <View app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/divider_line" app:background="@color/dividerColor" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_marginLeft="@dimen/list_content_margin_left" />
+        <RelativeLayout app:paddingLeft="@dimen/list_content_margin_left" app:layout_width="match_parent" app:layout_height="match_parent">
+            <View app:id="@id/center_anchor" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x201" app:layout_centerVertical="true" />
+            <LinearLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toLeftOf="@id/textView2" app:layout_above="@id/center_anchor" app:layout_alignParentLeft="true" app:layout_centerVertical="true">
+                <TextView app:textSize="@dimen/contacts_list_item_text" app:textColor="@color/textColorPrimary" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/textView1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout app:orientation="horizontal" app:id="@id/layout_icons" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+                <ImageView app:id="@id/star_imageView" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f0700cf" app:layout_height="UNKNOWN_DATA_0x7f0700cf" app:layout_marginRight="@dimen/material_margin_medium" app:src="@drawable/ic_star" />
+                <ImageView app:id="@id/status_imageView" app:layout_width="UNKNOWN_DATA_0x7f0700cf" app:layout_height="UNKNOWN_DATA_0x7f0700cf" app:layout_marginRight="@dimen/material_margin_medium" app:src="@drawable/ic_pay_error" />
+            </LinearLayout>
+            <TextView app:textSize="@dimen/contacts_list_details_item_text" app:textColor="@color/textColorSecondary" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/textView3" app:paddingRight="@dimen/material_margin_wide" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/material_margin_low" app:text="New Text" app:maxLines="1" app:layout_toLeftOf="@id/textView2" app:layout_below="@id/center_anchor" app:layout_alignParentLeft="true" />
+            <View app:id="@id/view1" app:layout_width="UNKNOWN_DATA_0x401" app:layout_height="wrap_content" app:layout_toLeftOf="@id/view2" app:layout_alignParentBottom="true" app:layout_alignWithParentIfMissing="true" />
+            <View app:id="@id/view2" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x801" app:layout_height="wrap_content" app:layout_toLeftOf="@id/checkBox" app:layout_alignParentBottom="true" app:layout_alignWithParentIfMissing="true" />
+            <TextView app:textSize="@dimen/conversations_list_item_details_text" app:textColor="@color/textColorSecondary" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/textView2" app:paddingRight="@dimen/material_margin_medium" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="New Text" app:maxLines="1" app:layout_toLeftOf="@id/layout_icons" app:layout_centerVertical="true" app:layout_alignWithParentIfMissing="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

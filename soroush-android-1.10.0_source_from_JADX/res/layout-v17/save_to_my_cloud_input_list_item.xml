@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/root_save_to_my_cloud" android:paddingTop="6dp" android:paddingRight="@dimen/material_margin_medium" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/material_margin_medium">
+    <ImageView android:id="@id/save_to_my_cloud_imageView" android:layout_width="UNKNOWN_DATA_0x7f0700cc" android:layout_height="UNKNOWN_DATA_0x7f0700cc" android:layout_marginLeft="@dimen/material_margin_medium" android:layout_marginRight="@dimen/material_margin_medium" android:src="@drawable/ic_save_to_my_cloud_bold" android:contentDescription="save_to_my_cloud_imageView" android:layout_marginStart="@dimen/material_margin_medium" android:layout_marginEnd="@dimen/material_margin_medium" />
+</LinearLayout>

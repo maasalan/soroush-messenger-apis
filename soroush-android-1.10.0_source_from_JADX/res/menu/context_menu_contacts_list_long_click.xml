@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_conversation_tab_new_design_2" android:id="@id/action_start_a_conversation" android:title="@string/action_start_a_conversation" />
+    <item android:icon="@drawable/ic_action_communication_call" android:id="@id/action_free_call" android:title="@string/action_free_call" />
+</menu>

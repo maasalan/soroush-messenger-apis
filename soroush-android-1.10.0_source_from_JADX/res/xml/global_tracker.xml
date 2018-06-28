@@ -1,0 +1,12 @@
+Error decode xml
+java.io.IOException: Decode error: Type: 0xffff not yet implemented, position: 0x14c
+	at jadx.core.xmlgen.CommonBinaryParser.die(CommonBinaryParser.java:96)
+	at jadx.core.xmlgen.BinaryXMLParser.decode(BinaryXMLParser.java:141)
+	at jadx.core.xmlgen.BinaryXMLParser.parse(BinaryXMLParser.java:93)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:106)
+	at jadx.api.ResourcesLoader.access$000(ResourcesLoader.java:30)
+	at jadx.api.ResourcesLoader$1.decode(ResourcesLoader.java:89)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:68)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:86)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:52)
+

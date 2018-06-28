@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:id="@id/root_layout" wheel:clickable="true" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x7f0700c6" style="@style/MyItemBackgroundStyle">
+    <ImageView wheel:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:id="@id/imageView1" wheel:layout_width="UNKNOWN_DATA_0x7f070068" wheel:layout_height="UNKNOWN_DATA_0x7f070068" wheel:layout_marginLeft="32dp" />
+    <mobi.mmdt.ott.view.components.ProgressWheel wheel:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:id="@id/progress_wheel" wheel:layout_width="UNKNOWN_DATA_0x7f070068" wheel:layout_height="UNKNOWN_DATA_0x7f070068" wheel:layout_marginLeft="32dp" wheel:matProg_barColor="@color/colorControlActivated" wheel:matProg_linearProgress="true" wheel:matProg_progressIndeterminate="true" />
+    <RelativeLayout wheel:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:orientation="vertical" wheel:paddingLeft="102dp" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+        <TextView wheel:textSize="@dimen/contacts_list_item_text" wheel:textColor="@color/textColorPrimary" wheel:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@id/textView1" wheel:paddingRight="@dimen/material_margin_wide" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:text="New Text" wheel:maxLines="1" wheel:layout_toLeftOf="@id/checkBox" wheel:layout_centerVertical="true" wheel:layout_toStartOf="@id/checkBox" />
+        <CheckBox wheel:id="@id/checkBox" wheel:paddingRight="32dp" wheel:layout_width="wrap_content" wheel:layout_height="match_parent" wheel:text="" wheel:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View wheel:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:id="@id/divider_line" wheel:background="@color/dividerColor" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x100" wheel:layout_marginLeft="@dimen/list_content_margin_left" />
+</FrameLayout>

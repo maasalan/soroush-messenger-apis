@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_share_white_24" app:id="@id/action_share" app:orderInCategory="1" app:title="@string/action_share" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/ic_file_start_download" app:id="@id/action_save_to_gallery" app:orderInCategory="1" app:title="@string/action_save_to_gallery" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_forward_white_24" app:id="@id/action_forward" app:orderInCategory="1" app:title="@string/action_forward" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_action_mode_content_copy" app:id="@id/action_copy" app:orderInCategory="1" app:title="@string/action_copy" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

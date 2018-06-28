@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors">
+        <item>#DE5947</item>
+        <item>#F5881E</item>
+        <item>#FDBA32</item>
+        <item>#98C93C</item>
+        <item>#0099CC</item>
+        <item>#8782BE</item>
+        <item>#E773A0</item>
+        <item>#5AC7D9</item>
+        <item>#4CB5AB</item>
+        <item>#DEE23E</item>
+    </array>
+    <array name="incoming_call_widget_2way_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="persianMonths">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+    </array>
+    <array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+    </array>
+    <array name="testArray">
+        <item>@color/progress_color</item>
+        <item>@color/actionModeColor</item>
+        <item>@color/red</item>
+        <item>@color/balloon_color_date</item>
+    </array>
+</resources>

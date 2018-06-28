@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/forward_imageView" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0700cc" android:layout_height="UNKNOWN_DATA_0x7f0700cc" android:layout_marginLeft="@dimen/material_margin_medium" android:src="@drawable/ic_forward_bold" android:contentDescription="forward_imageView" />

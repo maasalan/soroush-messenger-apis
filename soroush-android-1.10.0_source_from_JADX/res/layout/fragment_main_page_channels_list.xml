@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/main_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:theme="@style/MyEdgeOverlayTheme" android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/myRecyclerViewStyle" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/empty_state_linearLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <FrameLayout android:id="@id/empty_state_frameLayout_image" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/empty_state_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_wide" android:src="@drawable/ic_empty_state_background" />
+            <ImageView android:id="@id/empty_state_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_wide" android:src="@drawable/ic_channel_icon" />
+        </FrameLayout>
+        <TextView android:textColor="@color/textColorPrimary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/empty_state_textView" android:paddingLeft="@dimen/material_margin_wide" android:paddingRight="@dimen/material_margin_wide" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_wide" android:text="@string/empty_state_channels_list" />
+    </LinearLayout>
+</FrameLayout>
