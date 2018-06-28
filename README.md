@@ -5,6 +5,13 @@ Research on Soroush Messenger APIs and Endpoints
 - Web Service URL: https://wslb2.soroush-hamrah.ir/
 - Stickers Service URL: https://ws-stickers2.soroush-hamrah.ir/
 
+# Certificates
+- All the found certificates are under /certs directory
+# Key stores
+- ssl_keystore_prod has password "b1gs3cr3t"
+- use keytool as below to see the certificate detail inside the keystore:
+`keytool -list -v -keystore "ssl_keystore_prod.bks" -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath "bcprov-jdk15on-159.jar" -storetype BKS -storepass "b1gs3cr3t"`
+
 # Web service APIs:
 
 - https://wslb2.soroush-hamrah.ir/CAPI/Userchat/Archive/
